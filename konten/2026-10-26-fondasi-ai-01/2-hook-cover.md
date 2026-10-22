@@ -126,3 +126,50 @@ Copy: Kenapa AI bisa / ngasal? / Dua hal kecil biar jawabannya *kena*. Ini post 
 **Rekomendasi Track A:** A3. Ekspresi "yakin padahal salah" kebaca dalam sedetik dan itu inti post ini; tangan cuma memegang peta, lebih aman daripada dart.
 **Rekomendasi Track B:** B1. Satu-satunya yang langsung menggemakan kata oranye "kena", dan paling gampang dibaca di thumbnail.
 **Pilihan utama:** A3. Ini post pertama di grid, jadi wajah Irsyad di cover pertama sekaligus memperkenalkan siapa yang bicara. Kalau foto referensi belum siap, B1.
+
+### Track A, variasi tambahan (diminta Irsyad)
+
+**A4. Bel kuis duluan**
+- Metafora: AI kayak peserta kuis yang selalu pencet bel duluan, tahu atau nggak.
+- Adegan: Irsyad duduk di meja kuis polos, telapak tangan menekan bel kuis bulat oranye besar, badan condong ke depan. Latar studio polos warna lilac pucat. Kamera sejajar mata, sedikit dari depan.
+- Mood dan palet: terang, rapi, satu sumber cahaya lembut dari atas kanan. Teks Deep Indigo.
+- Posisi teks: atas.
+- Interaksi: kepala Irsyad menutup sedikit bagian bawah "ngasal?".
+- Ekspresi: pede kelewat cepat, mata melebar, mulut setengah terbuka seperti mau langsung jawab. Aksi: menekan bel. Arah mata: ke lensa. Crop: waist-up.
+- Risiko: model bisa menambah tulisan atau papan skor di meja (minta meja polos tanpa tulisan).
+
+**A5. Tebak isi kado**
+- Metafora: nebak isi kotak dari bunyinya. Itu yang AI lakukan kalau kamu nggak kasih konteks.
+- Adegan: Irsyad mengangkat kotak kado polos dengan pita oranye ke dekat telinga, menggoyangnya pelan. Latar dinding krem hangat polos. Kamera sejajar mata.
+- Mood dan palet: hangat, sore, cahaya jendela dari kiri. Teks Deep Indigo.
+- Posisi teks: atas.
+- Interaksi: kotak dan kepala di bawah blok teks; ujung pita boleh sedikit menutup bawah "ngasal?".
+- Ekspresi: penasaran, satu alis naik, mata menyipit, bibir sedikit dimonyongkan. Aksi: menggoyang kotak. Arah mata: melirik ke kotak. Crop: chest-up.
+- Risiko: tangan memegang kotak (dua tangan, posisi sederhana); kertas kado jangan bermotif.
+
+**A6. Coba kunci satu-satu**
+- Metafora: nebak satu-satu sampai pas; kunci oranye yang benar sudah ada di tangan satunya.
+- Adegan: Irsyad di depan pintu kayu polos, mencoba satu kunci dari gantungan penuh kunci perak, tangan lain memegang satu kunci oranye. Kamera dari samping depan.
+- Mood dan palet: netral terang. Teks Deep Indigo.
+- Posisi teks: atas, di pintu polos.
+- Interaksi: Irsyad di bawah blok teks.
+- Ekspresi: kesal-fokus, alis mengerut. Aksi: mencoba kunci. Arah mata: ke lubang kunci. Crop: waist-up.
+- Risiko: banyak kunci kecil dan dua tangan sibuk; metafora butuh dua langkah untuk dimengerti.
+
+**A7. Angkat tangan duluan**
+- Metafora: "teman pinter yang gengsi" dari slide 4: selalu angkat tangan, tahu jawabannya atau nggak.
+- Adegan: Irsyad duduk di bangku sekolah kayu yang kekecilan (skala lucu), satu tangan terangkat tinggi dengan semangat, pensil oranye di tangan lain. Latar papan tulis hijau gelap kosong. Kamera sejajar mata.
+- Mood dan palet: hangat, kelas siang. Teks White di papan tulis gelap.
+- Posisi teks: atas, di papan tulis.
+- Interaksi: tangan yang terangkat tidak boleh masuk blok teks; Irsyad di bawah blok teks.
+- Ekspresi: semangat, senyum lebar, alis naik. Aksi: mengangkat tangan. Arah mata: ke lensa. Crop: waist-up.
+- Risiko: tangan terangkat mudah menabrak teks; papan tulis cenderung diisi coretan.
+
+| Konsep | Stop-scroll | Jelas | Terbaca | Brand | Variasi grid | Bisa dibuat | Emosi | Total |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| A4 Bel kuis duluan | 5 | 4 | 4 | 5 | 5 | 4 | 5 | 32/35 |
+| **A5 Tebak isi kado** | 4 | 5 | 5 | 5 | 5 | 4 | 5 | **33/35** |
+| A6 Coba kunci satu-satu | 4 | 3 | 4 | 4 | 5 | 3 | 4 | 27/35 |
+| A7 Angkat tangan duluan | 4 | 4 | 3 | 5 | 5 | 4 | 5 | 30/35 |
+
+**Rekomendasi baru Track A:** A5. "Nebak tanpa info" langsung kebaca, latar paling tenang di belakang teks, dan pose dua tangan memegang kotak gampang digenerate. A4 dan A3 menyusul tipis.
