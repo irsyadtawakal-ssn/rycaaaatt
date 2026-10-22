@@ -1,6 +1,6 @@
 # 4-slide-plan
 
-Dari naskah v3, hook #5, cover A5 Tebak isi kado. 10 slide, 1080 × 1350. Cover tidak dipakai di slide mana pun.
+Fondasi AI #2. Dari naskah v3, hook #5, cover A5 Tebak isi kado. Label seri "Fondasi AI #2" di pojok kanan atas cover. 10 slide, 1080 × 1350. Cover tidak dipakai di slide mana pun.
 
 ## Rencana
 
@@ -15,7 +15,7 @@ Dari naskah v3, hook #5, cover A5 Tebak isi kado. 10 slide, 1080 × 1350. Cover 
 | 7 | Grafis | Kotak · Kotak | Biar nggak ngasal | Kasih dia *dua* hal. | Pertama, ceritain kamu siapa dan lagi ngerjain apa. Kedua, bilang ke dia: kalau nggak yakin, ngaku aja. | Geser, ada rangkumannya. |
 | 8 | Tipe (Contekan) | — | Contekan | Simpan yang *ini*. | 1. AI milih kata yang paling nyambung · 2. Nggak dikasih konteks, dia nebak · 3. Paling sering salah: nama, tanggal, angka · 4. Ceritain situasimu, suruh ngaku kalau nggak yakin | — |
 | 9 | Tipe (payoff, blok prompt) | — | Coba hari ini | Tempel ini di awal *chat* kamu. | Blok prompt: "Saya [kerjaanmu], lagi [ngerjain apa]. Saya mau [hasil yang kamu mau]." (45%) lalu kalimat terbaru dengan bar oranye: "Kalau kamu nggak yakin soal nama, tanggal, atau angka, bilang aja nggak yakin. Jangan nebak." + caret | — |
-| 10 | Grafis (teaser) | Lebar · auto (diharapkan Tengah) | Besok sore · Fondasi AI #2 | Satu kalimat biar AI *nanya* dulu. | Sebelum dia jawab apa pun. | — (slide terakhir) |
+| 10 | Grafis (teaser) | Lebar · auto (diharapkan Tengah) | Besok sore · Fondasi AI #3 | Satu kalimat biar AI *nanya* dulu. | Sebelum dia jawab apa pun. | — (slide terakhir) |
 
 Pojok: @irsyadtawakal kiri atas, nomor slide kanan atas, "Geser →" kanan bawah. Slide 10: "Simpan dulu" dan "Ikuti @irsyadtawakal".
 

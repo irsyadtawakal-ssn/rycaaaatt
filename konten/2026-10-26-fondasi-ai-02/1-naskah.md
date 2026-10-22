@@ -5,14 +5,14 @@
 | | |
 | --- | --- |
 | Topik | Kenapa AI bisa jawab ngasal |
-| Pilar dan seri | 1. Fondasi AI · Fondasi AI #1 |
+| Pilar dan seri | 1. Fondasi AI · Fondasi AI #2 (diubah dari #1 atas permintaan Irsyad) |
 | Tayang | Senin 26 Oktober 2026, pagi (carousel utama) |
 | Kondisi audiens | Belum pernah |
 | Pembaca | Pemula yang penasaran (konten nilai saja, tanpa kalimat layanan) |
 | Payoff | Satu prompt pembuka yang bikin AI jarang ngasal: kasih konteks, kasih izin bilang nggak tahu |
 | Jumlah slide | 10 |
 | 3 cover terakhir | Belum ada, ini post pertama |
-| Episode berikutnya | Fondasi AI #2 · Minta AI tanya balik dulu (Selasa 27/10 sore) |
+| Episode berikutnya | Fondasi AI #3 · Minta AI tanya balik dulu (Selasa 27/10 sore) |
 
 ## Angle
 
@@ -106,3 +106,5 @@ Yang diganti dari v2:
 Cek tulisan AI v3: "Bukan X, tapi Y" nol kali (slide 5 sekarang "belum tentu"). Satu pertanyaan di jembatan slide 3, dijawab di slide 4. Titik dua hanya untuk daftar (slide 6, Contekan) dan kalimat yang diucapkan (slide 7). Tidak ada kata hype atau pembuka klise.
 
 Catatan tes tetap berlaku untuk prompt slide 9 versi ini.
+
+**Revisi nomor seri (Irsyad):** post ini Fondasi AI #2, bukan #1. Teaser di slide 10 jadi "Fondasi AI #3". Episode Fondasi AI berikutnya di jadwal ikut bergeser satu nomor.
