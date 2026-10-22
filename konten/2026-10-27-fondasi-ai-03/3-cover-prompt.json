@@ -1,1 +1,71 @@
-{}
+{
+  "prompt": {
+    "scene": {
+      "description": "A vertical 4:5 Instagram carousel cover, 1080x1350, editorial magazine style, the photo as the hero with one compact centred text block in the top part of the frame. The same person from the attached reference photos stands chest-up in the lower half of the frame against a plain, smooth deep indigo wall (#1F1752). He raises his right palm toward the camera at shoulder height in a friendly 'wait a second' gesture, while his left hand holds a small closed notebook and a vivid orange (#EF5F18) pen, ready to take notes. His expression is curious and friendly: head tilted slightly, eyebrows raised, mouth half open as if about to ask a question, looking straight into the lens. One soft key light from camera-left lights his face and the raised hand, with a thin rim light separating him from the dark wall. Palette: deep indigo wall, light neutral t-shirt, the orange pen as the only saturated accent, white (#FFFFFF) text. The upper 40% of the frame is a calm, empty, evenly dark wall for the text. Text, exactly as written, in white #FFFFFF: kicker 'Biar AI', giant word 'nanya', line 'dulu, baru dia jawab' with only 'jawab' in orange followed by a cursor bar, and four small corner labels '@irsyadtawakal', 'Fondasi AI #3', 'Simpan dulu', 'Geser →'.",
+      "subject": "The same person from the attached reference photos, chest-up, one palm raised toward the camera, holding a small notebook and an orange pen",
+      "setting": "Plain smooth deep indigo painted wall, no furniture, no decorations",
+      "action": "Raising a palm in a friendly 'wait a second' gesture, about to ask a question before starting"
+    },
+    "person": {
+      "identity": "The same person from the attached reference photos. Keep his face, facial structure, skin tone, hairstyle and body proportions exactly the same as in the reference photos. Do not beautify, slim, or change his age.",
+      "expression": "Curious and friendly: head tilted slightly, eyebrows raised, mouth half open as if about to ask something",
+      "gaze": "Straight into the lens, as if asking the viewer a question",
+      "pose_gesture": "Right palm raised toward the camera at shoulder height, fingers relaxed and together, kept below the text block; left hand holds a small closed notebook against his chest with an orange pen clipped between two fingers",
+      "framing": "Chest-up crop, the face about one fifth of the frame height, head just below the text block",
+      "wardrobe": "Plain light grey or off-white crew-neck t-shirt, no logo, no print",
+      "interaction": "He sits just below the text block without touching it; the raised palm stays below the bottom text line"
+    },
+    "style": {
+      "primary": "editorial portrait photography",
+      "rendering_quality": "photorealistic, high-resolution",
+      "surface_textures": "Matte, natural; smooth painted wall, no grain effects",
+      "lighting": "One soft key light from camera-left at about 40 degrees, neutral-warm 4800K, catchlights in both eyes, a thin rim light from behind right, the wall falling off evenly into deep indigo"
+    },
+    "technical": {
+      "camera": {
+        "focal_length": "85mm",
+        "aperture": "f/2.8",
+        "depth_of_field": "shallow: face, raised hand, notebook and pen sharp, the wall soft",
+        "angle": "eye level"
+      },
+      "resolution": "editorial print quality",
+      "rendering": "Clean colour grade, deep but not crushed shadows, true-to-life skin"
+    },
+    "materials": {
+      "skin": "Natural skin texture with visible pores and real imperfections, no airbrushing",
+      "fabric": "Soft cotton t-shirt with natural creases",
+      "surfaces": "Small notebook with a plain dark cover, no writing; glossy orange pen; flat painted wall with faint texture"
+    },
+    "composition": {
+      "perspective": "Frontal, shallow depth: person in the foreground plane, wall behind",
+      "framing": "centered",
+      "subject_placement": "Person centred in the lower half; the raised palm on one side and the orange pen on the other balance the frame; the eye goes from the headline to his face, then to the pen",
+      "ui_elements": "One compact centred text block placed in the top part of the frame, over a calm area of the image, occupying no more than about 30% of the frame. 1) Kicker line: elegant high-contrast serif italic (like Instrument Serif Italic), about 104px, white #FFFFFF: 'Biar AI'. 2) Directly below, one giant lowercase word in a heavy extra-bold condensed grotesque (like Bricolage Grotesque ExtraBold at about 80% width), about 360px, line height 0.78, slightly tight letter spacing, white #FFFFFF: 'nanya'. 3) About 30px below the giant word, one centred line in the same grotesque at medium weight, about 46px, white #FFFFFF: 'dulu, baru dia jawab', where only the word 'jawab' is extra-bold vivid orange #EF5F18, followed immediately by a thin vertical text-cursor bar in white #FFFFFF touching the end of that word with no gap. 4) Four small corner labels in a clean geometric sans-serif medium (like Figtree Medium), about 26px, white #FFFFFF at 85% opacity: top-left '@irsyadtawakal', top-right 'Fondasi AI #3', bottom-left 'Simpan dulu', bottom-right 'Geser →'; about 44px from the top, 52px from the bottom and 64px from the sides. No other text anywhere: no hook line, no slide numbers, no extra captions. All text sentence case exactly as written. The subject sits just below the text block without touching it."
+    },
+    "quality": {
+      "include": [
+        "curious 'wait, let me ask first' expression readable at thumbnail size",
+        "friendly raised palm, natural relaxed fingers",
+        "orange pen as the only saturated accent",
+        "calm, evenly dark wall behind the headline",
+        "soft directional key light with catchlights and a thin rim light",
+        "natural skin texture and real proportions",
+        "crisp, perfectly spelled white typography",
+        "cursor bar touching 'jawab' with no gap",
+        "clean editorial magazine feel"
+      ],
+      "avoid": [
+        "misspelled or extra text, writing on the notebook",
+        "ALL CAPS or script fonts",
+        "more than one orange word, or a gap between 'jawab' and the cursor bar",
+        "the kicker in a sans-serif, the bottom line in heavy bold",
+        "the raised hand overlapping the text, an oversized or distorted palm",
+        "a different-looking face, beautified or airbrushed skin, changed age or facial structure",
+        "extra fingers or warped hands",
+        "a stop-sign or angry gesture, a stiff posed smile",
+        "robots, glow, neon, watermarks or logos"
+      ],
+      "reference_standard": "Monocle and Kinfolk editorial portraits on dark backdrops; Peter Lindbergh-style natural portrait light"
+    }
+  }
+}

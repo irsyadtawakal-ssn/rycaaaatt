@@ -1,0 +1,66 @@
+{
+  "prompt": {
+    "scene": {
+      "description": "A vertical 4:5 image, 1080x1350, the closing frame of an Instagram carousel: the same scene, same person, same light and colours as the attached cover, one moment later. The same person from the attached reference photos stands chest-up in the lower half of the frame against the same plain, smooth deep indigo wall (#1F1752). His questions have been answered: he holds the small notebook open toward the camera at chest height, its page showing three short lines of soft, blurred, illegible pencil scribbles, and lifts the vivid orange (#EF5F18) pen slightly in his other hand, ready to start working. His expression is relaxed and confident: a warm closed-mouth smile with one corner higher, eyes crinkled, looking straight into the lens. The same soft key light from camera-left and thin rim light. The upper 45% of the frame is a calm, empty, evenly dark wall. No text anywhere in the image.",
+      "subject": "The same person from the attached reference photos, chest-up, holding an open notebook with three blurred note lines and lifting an orange pen",
+      "setting": "The same plain smooth deep indigo wall as the cover",
+      "action": "Showing that the notes are taken and he is ready to start"
+    },
+    "person": {
+      "identity": "The same person from the attached reference photos and the attached cover. Keep his face, facial structure, skin tone, hairstyle, clothing and body proportions exactly the same. Do not beautify, slim, or change his age.",
+      "expression": "Relaxed and confident: warm closed-mouth smile with one corner higher, eyes slightly crinkled",
+      "gaze": "Straight into the lens",
+      "pose_gesture": "Left hand holds the small notebook open toward the camera at chest height; right hand lifts the orange pen slightly beside it; both hands natural and fully visible",
+      "framing": "Chest-up crop, the face about one fifth of the frame height, head well below the top 45% of the frame",
+      "wardrobe": "The same plain light t-shirt as the cover",
+      "interaction": "Nothing enters the top 45% of the frame, which stays empty for text added later"
+    },
+    "style": {
+      "primary": "editorial portrait photography",
+      "rendering_quality": "photorealistic, high-resolution",
+      "surface_textures": "Matte, natural; smooth painted wall, no grain effects",
+      "lighting": "Identical to the cover: one soft key light from camera-left, neutral-warm 4800K, catchlights, thin rim light from behind right"
+    },
+    "technical": {
+      "camera": {
+        "focal_length": "85mm",
+        "aperture": "f/2.8",
+        "depth_of_field": "shallow: face, notebook and pen sharp, the scribbles soft and unreadable, the wall soft",
+        "angle": "eye level"
+      },
+      "resolution": "editorial print quality",
+      "rendering": "Same colour grade as the cover"
+    },
+    "materials": {
+      "skin": "Natural skin texture with visible pores and real imperfections, no airbrushing",
+      "fabric": "Soft cotton t-shirt with natural creases",
+      "surfaces": "Small notebook, cream pages with three blurred pencil scribble lines, no readable letters; glossy orange pen"
+    },
+    "composition": {
+      "perspective": "Frontal, the same camera position as the cover",
+      "framing": "centered",
+      "subject_placement": "Person centred in the lower half, notebook and pen at chest height; the top 45% is empty dark wall",
+      "ui_elements": "No text, letters, numbers, logos or labels anywhere in the image. The notebook lines are blurred scribbles, not words."
+    },
+    "quality": {
+      "include": [
+        "same person, outfit, light and colours as the cover",
+        "relaxed confident smile readable at thumbnail size",
+        "open notebook with three soft unreadable note lines",
+        "orange pen as the only saturated accent",
+        "empty, evenly dark top 45% of the frame",
+        "natural skin texture and real hands"
+      ],
+      "avoid": [
+        "any text, letters, numbers, logos or watermarks",
+        "readable writing in the notebook",
+        "anything in the top 45% of the frame",
+        "a different-looking face, beautified skin, changed age",
+        "a different outfit, wall colour or lighting from the cover",
+        "extra fingers or warped hands",
+        "glow, neon or robots"
+      ],
+      "reference_standard": "The attached cover; Monocle editorial portraits"
+    }
+  }
+}

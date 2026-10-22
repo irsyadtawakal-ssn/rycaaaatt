@@ -126,3 +126,7 @@ Cover sebelumnya (Fondasi AI #2): Track A, wajah Irsyad, dinding krem terang, te
 | B1 Meteran jadi tanda tanya | Meteran melengkung jadi tanda tanya | Meteran yang sama terbentang lurus dan rapi di permukaan indigo, ujungnya sedikit tergulung |
 | B2 Formulir kosong | Tiga baris kosong | Tiga baris sudah dicentang oranye |
 | B3 Mikrofon ke kursi kosong | Kursi kosong | Kursi ditempati, mikrofon tetap di depan |
+
+## Keputusan Irsyad (Gate 3)
+
+Konsep: **A2 Tunggu dulu**. Cover penutup: catatan sudah terisi, Irsyad tersenyum dan mengangkat pena oranye. Prompt: `3-cover-prompt.json` dan `3-cover-penutup-prompt.json`.
