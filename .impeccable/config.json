@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "instrument serif",
+        "createdAt": "2026-10-22T10:06:05.842Z",
+        "reason": "brand/01-brand-guide.md line 35 sets Instrument Serif Italic as the brand's editorial accent font"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "halaman_induk": "400291ee7d238138a87cf00590e3fef9",
+  "post": "bc8df431e52f4139ad33049d08e54d8b",
+  "angka": "d8d82d1824ff46dcbf8ecd9c619bccea",
+  "bank_ide": "1cfd8e374efa4ba6aaa5fb28d0bba207",
+  "data_source": {
+    "post": "collection://9dcccc0e-915f-4ce1-a0bb-0dd66d2049ac",
+    "angka": "collection://d61dad5a-6dec-48e1-a518-f676d4f0be03",
+    "bank_ide": "collection://ef00e70f-a4d9-4e89-8665-f9a589025c96"
+  },
+  "dibuat": "2026-10-21"
+}

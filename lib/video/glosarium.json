@@ -1,0 +1,40 @@
+{
+  "_catatan": "Koreksi istilah setelah transkrip (Video Brain bagian 4). 'ganti': kata atau frasa yang salah dengar -> ejaan benar, diganti otomatis (tidak peka huruf besar). 'cek': kata yang bisa benar bisa salah tergantung konteks; tidak diganti, hanya ditandai untuk dicek. 'prompt_awal': istilah yang diberikan ke Whisper sebagai petunjuk ejaan. Tambahan khusus satu video ditulis di <post>/video/glosarium.json dengan format yang sama.",
+  "prompt_awal": "ChatGPT, Claude, Gemini, prompt, UMKM, AI, Irsyad, @irsyadtawakal",
+  "ganti": {
+    "chat gpt": "ChatGPT",
+    "chatgpt": "ChatGPT",
+    "chat gbt": "ChatGPT",
+    "chat jipiti": "ChatGPT",
+    "cet gpt": "ChatGPT",
+    "jet gpt": "ChatGPT",
+    "klod": "Claude",
+    "klot": "Claude",
+    "clod": "Claude",
+    "claud": "Claude",
+    "gemini": "Gemini",
+    "jemini": "Gemini",
+    "gemeni": "Gemini",
+    "promt": "prompt",
+    "prom": "prompt",
+    "promp": "prompt",
+    "prompting": "prompting",
+    "u m k m": "UMKM",
+    "umkm": "UMKM",
+    "u.m.k.m": "UMKM",
+    "irsad": "Irsyad",
+    "irsyat": "Irsyad",
+    "ersyad": "Irsyad",
+    "irsyad tawakal": "Irsyad Tawaqal",
+    "irsyad tawakkal": "Irsyad Tawaqal",
+    "a i": "AI",
+    "ai": "AI"
+  },
+  "cek": [
+    "cloud",
+    "clout",
+    "jeminai",
+    "umk",
+    "tawakal"
+  ]
+}

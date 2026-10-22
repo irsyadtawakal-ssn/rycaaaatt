@@ -1,0 +1,15 @@
+{
+  "name": "irsyadtawakal-konten",
+  "private": true,
+  "type": "module",
+  "description": "Sistem produksi konten @irsyadtawakal untuk Claude Code",
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "demo": "py lib/slides.py && node lib/render.mjs demo.html output-demo",
+    "render": "node lib/render.mjs",
+    "cek-video": "ffmpeg -version && yt-dlp --version && auto-editor --version && py -c \"import faster_whisper; print('faster-whisper OK')\""
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}

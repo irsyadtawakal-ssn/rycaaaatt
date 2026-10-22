@@ -1,0 +1,22 @@
+node_modules/
+demo.html
+output-demo/
+.DS_Store
+referensi/
+
+# Hasil render dan bahan video (besar, bisa dibuat ulang)
+konten/*/output/*
+!konten/*/output/.gitkeep
+konten/*/video/*.mp4
+konten/*/video/*.mov
+konten/*/video/*.m4v
+konten/*/video/*.wav
+konten/*/video/*.v3
+konten/*/video/hf/
+konten/*/video/sfx/
+konten/*/video/objek-*
+konten/*/video/remotion-props.json
+
+# Cache
+__pycache__/
+.impeccable/hook.cache.json

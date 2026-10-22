@@ -1,0 +1,25 @@
+{
+  "env": {
+    "PYTHONUTF8": "1"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(py lib/slides.py)",
+      "Bash(py konten/*/build_slides.py)",
+      "Bash(node lib/render.mjs:*)",
+      "Bash(npm run demo)",
+      "Bash(cp -r konten/_template konten/*)",
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
+      "Bash(yt-dlp:*)",
+      "Bash(auto-editor:*)",
+      "Bash(npm run cek-video)",
+      "Bash(py lib/ig/cek_caption.py:*)",
+      "Bash(py lib/ig/naskah_waktu.py:*)",
+      "Bash(py lib/ig/outlier.py:*)",
+      "Bash(py lib/ig/rapor.py:*)",
+      "Bash(py lib/ig/bersihkan.py:*)",
+      "WebSearch"
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+/*
+  Video styles @irsyadtawakal — 1080 × 1920
+  Rules: brand/06-video-brain.md (sections 3–5) and brand/04-visual-brain.md (section 3).
+  Timing and animation are set by the composition (HyperFrames or Remotion);
+  this file only fixes how each element looks and where it sits.
+
+  Elements:
+    .frame          the 1080 × 1920 stage (wraps the video and all overlays)
+    .input-bar      the input bar holding the hook (add .is-empty for the loop frame)
+    .cap            one caption chunk; mark the keyword with <span class="kw">
+    .caret          typing caret (hook and keyword cards only)
+    .handle         @irsyadtawakal, on screen for the full video
+    .card-angka     full-screen number card
+    .contekan       recap frame before the loop
+    .zone-atas      area above the head for chat objects
+*/
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("../../assets/fonts/bricolage-grotesque-variable.woff2") format("woff2");
+  font-weight: 200 800;
+  font-stretch: 75% 100%;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("../../assets/fonts/figtree-500.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("../../assets/fonts/figtree-700.woff2") format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("../../assets/fonts/instrument-serif-italic.woff2") format("woff2");
+  font-style: italic;
+}
+
+:root {
+  --indigo: #261a66;
+  --indigo-88: rgba(38, 26, 102, 0.88);
+  --white: #ffffff;
+  --orange: #ef5f18;
+  --outline: rgba(255, 255, 255, 0.15);
+
+  /* Safe box (Visual Brain section 3) */
+  --safe-top: 220px;
+  --safe-left: 64px;
+  --safe-right: 920px; /* x where the right-side icons begin */
+  --safe-bottom: 1500px;
+
+  /* Subtitle band y 1100–1400; caption centre at ~66% height */
+  --cap-center-y: 1270px;
+}
+
+.frame {
+  position: relative;
+  width: 1080px;
+  height: 1920px;
+  overflow: hidden;
+  background: var(--indigo);
+  font-family: "Figtree", sans-serif;
+  color: var(--white);
+}
+
+/* ---------- Input bar ---------- */
+.input-bar {
+  position: absolute;
+  top: 260px;
+  left: var(--safe-left);
+  width: 856px; /* x 64–920, clear of the right-side icons */
+  box-sizing: border-box;
+  min-height: 132px;
+  padding: 34px 44px;
+  background: var(--indigo-88);
+  border: 2px solid var(--outline);
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 1.22;
+  letter-spacing: -0.005em;
+}
+.input-bar .kw { color: var(--orange); }
+.input-bar.is-empty { color: rgba(255, 255, 255, 0.45); }
+
+/* ---------- Caption chunk ---------- */
+.cap {
+  position: absolute;
+  left: 50%;
+  top: var(--cap-center-y);
+  transform: translate(-50%, -50%);
+  max-width: 760px; /* x 160–920 when centred */
+  padding: 18px 32px;
+  background: var(--indigo-88);
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 1.1;
+  white-space: nowrap; /* one line: 1–4 words, at most 20 characters */
+  text-align: center;
+}
+.cap .kw { color: var(--orange); }
+
+/* ---------- Typing caret (hook and keyword cards only) ---------- */
+.caret {
+  display: inline-block;
+  width: 0.12em;
+  height: 0.95em;
+  margin-left: 0.08em;
+  vertical-align: -0.12em;
+  background: currentColor;
+  border-radius: 2px;
+}
+.caret.is-blink { animation: caret-blink 1s steps(1) infinite; }
+@keyframes caret-blink { 50% { opacity: 0; } }
+
+/* ---------- Handle ---------- */
+.handle {
+  position: absolute;
+  right: calc(1080px - 900px); /* right edge at x 900 */
+  bottom: calc(1920px - 1480px); /* baseline near y 1480 */
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1;
+  color: var(--white);
+}
+
+/* ---------- Number card ---------- */
+.card-angka {
+  position: absolute;
+  inset: 0;
+  background: var(--indigo);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 96px;
+  box-sizing: border-box;
+}
+.card-angka .angka {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 800;
+  font-size: 360px;
+  line-height: 0.9;
+  letter-spacing: -0.03em;
+  color: var(--orange);
+}
+.card-angka .label {
+  margin-top: 28px;
+  max-width: 820px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.2;
+}
+.card-angka .sumber {
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ---------- Contekan frame ---------- */
+.contekan {
+  position: absolute;
+  inset: 0;
+  background: var(--indigo);
+  padding: 300px 96px 0;
+  box-sizing: border-box;
+}
+.contekan .judul {
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
+  font-size: 64px;
+  margin-bottom: 40px;
+}
+.contekan ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: n;
+}
+.contekan li {
+  counter-increment: n;
+  display: flex;
+  gap: 28px;
+  align-items: baseline;
+  padding: 26px 0;
+  border-top: 2px solid var(--outline);
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1.2;
+}
+.contekan li::before {
+  content: counter(n);
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 800;
+  color: var(--orange);
+  min-width: 48px;
+}
+
+/* ---------- Zone above the head (chat objects) ---------- */
+.zone-atas {
+  position: absolute;
+  top: var(--safe-top);
+  left: var(--safe-left);
+  width: calc(var(--safe-right) - var(--safe-left));
+  height: calc(560px - var(--safe-top)); /* stops at the forehead, ~y 560 */
+}

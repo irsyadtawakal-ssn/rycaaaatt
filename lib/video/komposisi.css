@@ -1,0 +1,42 @@
+/*
+  Layout bits the composition needs on top of captions.css. Used by both
+  renderers (HyperFrames and Remotion) so they look the same.
+*/
+
+/* The talking-head video; snap zoom scales this wrapper, centred on the face
+   (eyes around y 650-750, Visual Brain section 4). */
+.video-wrap {
+  position: absolute;
+  inset: 0;
+  transform-origin: 50% 37%;
+}
+.video-wrap video,
+.video-wrap img {
+  position: absolute;
+  inset: 0;
+  width: 1080px;
+  height: 1920px;
+  object-fit: cover;
+}
+
+/* A real screenshot or official logo in the zone above the head. */
+.objek {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.objek img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 24px;
+}
+
+/* Layer order: video < objects < input bar < caption < cards < handle. */
+.zone-atas { z-index: 2; }
+.input-bar { z-index: 3; }
+.cap { z-index: 4; }
+.card-angka,
+.contekan { z-index: 5; }
+.handle { z-index: 6; }
