@@ -1,1 +1,71 @@
-{}
+{
+  "prompt": {
+    "scene": {
+      "description": "A vertical 4:5 Instagram carousel cover, 1080x1350, editorial magazine style, the photo as the hero with one compact centred text block in the top part of the frame. The same person from the attached reference photos stands chest-up in the lower half of the frame against a plain warm cream wall (#F3ECE2), holding a plain matte cream gift box with a single vivid orange (#EF5F18) satin ribbon and bow up close to his right ear with both hands, gently shaking it to guess what is inside. His expression is curious and playful: one eyebrow raised, eyes slightly narrowed, lips pushed slightly forward, eyes glancing sideways at the box. Soft late-afternoon window light from camera-left lights his face and the box, with a gentle rim light separating him from the wall. Palette: warm cream wall, soft neutral clothing, one orange ribbon as the only saturated accent, deep indigo (#261A66) text. The upper 40% of the frame is a calm, empty, evenly lit cream wall for the text. Text, exactly as written, in deep indigo #261A66: kicker 'Kenapa AI bisa', giant word 'ngasal?', line 'Dua hal kecil biar jawabannya kena' with only 'kena' in orange followed by a cursor bar, and four small corner labels '@irsyadtawakal', 'Fondasi AI #1', 'Simpan dulu', 'Geser →'.",
+      "subject": "The same person from the attached reference photos, chest-up, holding a plain gift box with an orange ribbon next to his ear",
+      "setting": "Plain warm cream painted wall, no furniture, no decorations, no windows visible",
+      "action": "Gently shaking the gift box next to his ear, listening, trying to guess what is inside"
+    },
+    "person": {
+      "identity": "The same person from the attached reference photos. Keep his face, facial structure, skin tone, hairstyle and body proportions exactly the same as in the reference photos. Do not beautify, slim, or change his age.",
+      "expression": "Curious, guessing: one eyebrow raised, eyes slightly narrowed, lips pushed slightly forward as if concentrating on a sound",
+      "gaze": "Eyes glancing sideways toward the gift box at his ear, leading the viewer's eye to the box and its orange ribbon",
+      "pose_gesture": "Both hands hold the box lightly by its sides next to his right ear, elbows relaxed, head tilted slightly toward the box, caught mid-shake",
+      "framing": "Chest-up crop, the face about one fifth of the frame height, head placed just below the text block in the upper-middle of the lower half",
+      "wardrobe": "Plain soft grey or off-white crew-neck t-shirt, no logo, no print",
+      "interaction": "The top of his head overlaps the bottom edge of the giant word 'ngasal?' from in front, covering no more than about 30% of its letters; the box and ribbon stay below the text block"
+    },
+    "style": {
+      "primary": "editorial lifestyle portrait photography",
+      "rendering_quality": "photorealistic, high-resolution",
+      "surface_textures": "Natural, matte surfaces; subtle wall texture, no grain effects",
+      "lighting": "One soft key light from a window at camera-left, about 40 degrees, warm 4500K late-afternoon tone, catchlights in both eyes, a gentle rim light from behind right, soft natural shadow falling to the right on the wall"
+    },
+    "technical": {
+      "camera": {
+        "focal_length": "85mm",
+        "aperture": "f/2.8",
+        "depth_of_field": "shallow: face, hands and box sharp, the wall softly out of focus",
+        "angle": "eye level"
+      },
+      "resolution": "editorial print quality",
+      "rendering": "Clean colour grade, warm neutrals, true-to-life skin, no heavy post-processing"
+    },
+    "materials": {
+      "skin": "Natural skin texture with visible pores and real imperfections, no airbrushing",
+      "fabric": "Soft cotton t-shirt with natural creases",
+      "surfaces": "Matte cream paper on the gift box with crisp folded edges; orange satin ribbon with soft highlights; flat painted wall with faint texture"
+    },
+    "composition": {
+      "perspective": "Frontal, shallow depth: person and box in the foreground plane, wall behind",
+      "framing": "centered",
+      "subject_placement": "Person centred in the lower half; the gift box at his right ear is the second point of interest; the eye travels from the headline down to his face, then along his gaze to the orange ribbon",
+      "ui_elements": "One compact centred text block placed in the top part of the frame, over a calm area of the image, occupying no more than about 30% of the frame. 1) Kicker line: elegant high-contrast serif italic (like Instrument Serif Italic), about 104px, deep indigo #261A66: 'Kenapa AI bisa'. 2) Directly below, one giant lowercase word in a heavy extra-bold condensed grotesque (like Bricolage Grotesque ExtraBold at about 80% width), about 360px, line height 0.78, slightly tight letter spacing, deep indigo #261A66: 'ngasal?'. 3) About 30px below the giant word, one centred line in the same grotesque at medium weight, about 46px, deep indigo #261A66: 'Dua hal kecil biar jawabannya kena', where only the word 'kena' is extra-bold vivid orange #EF5F18, followed immediately by a thin vertical text-cursor bar in deep indigo #261A66 touching the end of that word with no gap. 4) Four small corner labels in a clean geometric sans-serif medium (like Figtree Medium), about 26px, deep indigo #261A66 at 85% opacity: top-left '@irsyadtawakal', top-right 'Fondasi AI #1', bottom-left 'Simpan dulu', bottom-right 'Geser →'; about 44px from the top, 52px from the bottom and 64px from the sides. No other text anywhere: no hook line, no slide numbers, no extra captions. All text sentence case exactly as written. The subject's top edge overlaps the bottom of the giant word, standing in front of it, without covering more than about 30% of its letters or touching the kicker or the bottom line."
+    },
+    "quality": {
+      "include": [
+        "curious guessing expression readable at thumbnail size",
+        "caught mid-shake, natural candid moment",
+        "single orange ribbon as the only saturated accent",
+        "calm empty cream wall behind the headline",
+        "soft directional window light with catchlights",
+        "natural skin texture and real proportions",
+        "crisp, perfectly spelled typography",
+        "giant word clearly readable with the head overlapping its base",
+        "warm, clean editorial magazine feel"
+      ],
+      "avoid": [
+        "misspelled or extra text, text on the gift box",
+        "ALL CAPS or script fonts",
+        "more than one orange word, or a gap between 'kena' and the cursor bar",
+        "the kicker in a sans-serif, the bottom line in heavy bold",
+        "patterned wrapping paper, busy background, props on the wall",
+        "a different-looking face, beautified or airbrushed skin, changed age or facial structure",
+        "extra fingers or warped hands",
+        "a stiff posed smile into the camera",
+        "robots, glow, neon, watermarks or logos"
+      ],
+      "reference_standard": "Kinfolk and Monocle editorial portraits; warm minimal lifestyle photography"
+    }
+  }
+}
