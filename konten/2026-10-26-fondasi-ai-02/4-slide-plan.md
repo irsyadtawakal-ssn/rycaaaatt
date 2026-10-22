@@ -88,3 +88,23 @@ Disimpan sebagai `output/cover.png` (diperkecil ke 1080 × 1350).
 | 8 | Penolakan brand, wajah, emosi, aksi, tangan | Lolos untuk emosi (penasaran kebaca), aksi (mendengarkan kotak), dan tangan (natural). Kemiripan wajah dinilai Irsyad sendiri. Catatan: mata melirik ke kanan, menjauh dari kado |
 
 Skor: Stop-scroll 4 · Jelas 5 · Terbaca 5 · Brand 5 · Variasi grid 5 · Bisa dibuat 5 · Emosi 4 = 33/35.
+
+Keputusan Irsyad: cover versi 1 dipakai apa adanya (celah kursor dibiarkan).
+
+## Cek gabungan (tahap 5)
+
+| # | Cek | Hasil |
+| --- | --- | --- |
+| 1 | Janji cover dibayar | Lolos. "Kenapa AI bisa ngasal?" dijawab slide 5; "dua hal kecil" dibayar slide 7 dan prompt slide 9 |
+| 2 | Slide 2 berdiri sendiri tanpa cover | Lolos |
+| 3 | Ritme, variasi layout, gambar cover tidak muncul di dalam | Lolos (kado dan pita tidak dipakai di slide isi) |
+| 4 | Fakta bersumber, prompt dites | Fakta lolos (OpenAI, "Why language models hallucinate", Sep 2025). **Prompt slide 9 belum dites Irsyad** |
+| 5 | Pre-flight Visual Brain, handle di setiap frame | Lolos |
+| 6 | Jumlah yang dijanjikan dikirim tepat | Lolos: "dua hal" = dua hal di slide 7 |
+| 7 | Satu ide per slide, satu ajakan di akhir | Lolos |
+| 8 | Ciri tulisan AI | Lolos: nol "Bukan X, tapi Y"; satu pertanyaan (jembatan slide 3) dijawab slide 4; titik dua hanya untuk daftar dan ucapan |
+| 9 | Grafis objek obrolan | Lolos: 4 grafis, masing-masing satu objek utama dengan contoh nyata, tepat satu tanda oranye, tanpa jawaban AI karangan |
+| 10 | Struktur engagement | Lolos: jembatan 3 → 4, 5 → 6, 7 → 8 semua dibayar; Contekan berdiri sendiri; teaser "Besok sore · Fondasi AI #3" cocok dengan jadwal Selasa 27/10 sore |
+| 11 | Tidak ada teks terpotong atau terlalu kecil | Lolos |
+
+Sisa: tes prompt slide 9 sebelum tayang. PDF LinkedIn dirender ulang dengan cover di halaman pertama.
