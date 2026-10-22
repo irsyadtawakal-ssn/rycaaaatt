@@ -74,3 +74,35 @@ Revisi setelah Irsyad baca v1: kalimatnya kaku. Isi dan fakta sama, bahasanya di
 Cek tulisan AI v2: "Bukan X, tapi Y" satu kali (slide 5). Satu pertanyaan di jembatan slide 3, dijawab di slide 4, bukan langsung di kalimat yang sama. Titik dua di slide 6 untuk daftar. Tidak ada kata hype atau pembuka klise.
 
 **Asset yang nanti dibutuhkan:** opsional, satu screenshot asli AI yang pernah jawab ngasal ke kamu (data pribadi ditutup), untuk slide bukti "Contoh dari saya" (`assets/contoh-ngasal.png`). Kalau nggak ada, slide itu nggak dipakai. Tidak ada logo, karena slide tidak menyebut nama tools.
+
+## Naskah per slide, versi 3 (bahasa sehari-hari)
+
+Revisi setelah Irsyad baca v2: masih terasa terjemahan dari bahasa Inggris. Frasa yang terdengar terjemahan diganti dengan cara orang Indonesia ngomong. Isi dan fakta tetap. Konsep "menebak kata berikutnya" sekarang dijelaskan dengan saran kata di keyboard HP. v2 tetap disimpan di atas.
+
+| # | Tipe | Isi |
+| --- | --- | --- |
+| 1 | Cover | Ide: AI jawab ngasal karena nebak, dan tebakannya bisa diarahkan. (Copy cover di tahap 2) |
+| 2 | Hook | _hook_ (dipilih di tahap 2) |
+| 3 | Salah paham | **Judul:** AI nggak lagi bohongin kamu. **Isi:** Dia sendiri nggak tahu jawabannya salah. Kerjanya cuma nerusin kalimat. **Jembatan:** Terus, kenapa dia nggak bilang "nggak tahu" aja? |
+| 4 | Perumpamaan | **Judul:** Kayak teman pinter yang gengsi ngaku nggak tahu. **Isi:** Ditanya apa aja, pasti dijawab. Kalau kamu nggak cerita situasinya, bagian yang kosong dia isi pakai tebakan. |
+| 5 | Cara kerja | **Judul:** Mirip saran kata di keyboard HP. **Isi:** Waktu kamu ngetik, HP nyodorin kata yang biasanya muncul berikutnya. AI juga begitu, cuma jauh lebih pinter. Dia pilih kata yang paling nyambung, belum tentu yang benar. Kalau tebakannya meleset tapi kedengeran yakin, itu yang disebut halusinasi. **Jembatan:** Ada tiga hal yang paling sering dia salah tebak. |
+| 6 | Kapan rawan | **Judul:** Paling sering salah: nama, tanggal, angka. **Isi:** Hal yang jarang ada di bahan belajarnya, susah dia tebak. OpenAI sendiri pakai contoh tanggal ulang tahun seseorang. |
+| 7 | Langkah praktis | **Judul:** Biar nggak ngasal, kasih dua hal. **Isi:** Pertama, ceritain kamu siapa dan lagi ngerjain apa. Kedua, bilang ke dia: kalau nggak yakin, ngaku aja. **Jembatan:** Geser, ada rangkumannya. |
+| 8 | Contekan | 1. AI milih kata yang paling nyambung · 2. Nggak dikasih konteks, dia nebak · 3. Paling sering salah: nama, tanggal, angka · 4. Ceritain situasimu, suruh ngaku kalau nggak yakin |
+| 9 | Coba hari ini | **Judul:** Tempel ini di awal chat kamu. **Prompt:** "Saya [kerjaanmu], lagi [ngerjain apa]. Saya mau [hasil yang kamu mau]. Kalau kamu nggak yakin soal nama, tanggal, atau angka, bilang aja nggak yakin. Jangan nebak." |
+| 10 | Teaser seri | **Besok sore, Fondasi AI #2:** satu kalimat biar AI nanya dulu sebelum jawab. Pojok: "Simpan dulu" dan "Ikuti @irsyadtawakal". |
+
+Yang diganti dari v2:
+
+| v2 (terasa terjemahan) | v3 |
+| --- | --- |
+| "nebak kata demi kata" (*word by word*), "satu kata sekali jalan" | Saran kata di keyboard HP: sesuatu yang semua orang sudah lihat tiap hari |
+| "kata yang paling mungkin, bukan yang paling benar" (*most likely, not most accurate*) | "kata yang paling nyambung, belum tentu yang benar" |
+| "susah ditebak dari pola" (*from patterns*) | "jarang ada di bahan belajarnya, susah dia tebak" |
+| "izinkan 'nggak yakin'" (*allow it to say*) | "suruh ngaku kalau nggak yakin" |
+| "nyambungin kalimat yang paling cocok" | "Kerjanya cuma nerusin kalimat." |
+| "Nah, ada tiga hal yang paling sering kena." | "Ada tiga hal yang paling sering dia salah tebak." |
+
+Cek tulisan AI v3: "Bukan X, tapi Y" nol kali (slide 5 sekarang "belum tentu"). Satu pertanyaan di jembatan slide 3, dijawab di slide 4. Titik dua hanya untuk daftar (slide 6, Contekan) dan kalimat yang diucapkan (slide 7). Tidak ada kata hype atau pembuka klise.
+
+Catatan tes tetap berlaku untuk prompt slide 9 versi ini.
