@@ -71,3 +71,20 @@ Semua grafis: tanpa tekstur, bayangan, atau glow. Kedalaman hanya dari tumpukan 
 Tidak ada logo (slide tidak menampilkan nama tools sebagai kartu; OpenAI hanya disebut sebagai sumber di teks slide 6). Tidak ada screenshot yang wajib.
 
 Slide bukti "Contoh dari saya" (screenshot asli AI yang pernah ngasal ke kamu) tidak dimasukkan: carousel sudah 10 slide, batas maksimal. Kalau kamu punya screenshot-nya, lebih pas dipakai di Story atau Threads.
+
+## Review cover (versi 1, dari Irsyad)
+
+Disimpan sebagai `output/cover.png` (diperkecil ke 1080 × 1350).
+
+| # | Cek | Hasil |
+| --- | --- | --- |
+| 1 | Ejaan semua kata, tanpa teks tambahan | Lolos |
+| 2 | Tiga lapis teks, di tengah, ringkas, di atas | Lolos (blok teks sekitar 35% frame, sedikit di atas target 30%) |
+| 3 | Kicker serif italic, kata raksasa tebal condensed, baris bawah medium dengan hanya "kena" tebal | Lolos |
+| 4 | Satu kata oranye, kursor menempel | **Perbaiki:** ada celah kecil antara "kena" dan kursor |
+| 5 | Empat label pojok, @irsyadtawakal kiri atas, "Fondasi AI #2" kanan atas | Lolos |
+| 6 | Area tenang di belakang teks, terbaca di thumbnail | Lolos |
+| 7 | Interaksi subjek | Beda dari rencana: kepala di bawah blok teks, tidak menumpuk di "ngasal?". Tetap sah (opsi "tepat di bawah blok teks"); rambut nyaris menyentuh baris bawah |
+| 8 | Penolakan brand, wajah, emosi, aksi, tangan | Lolos untuk emosi (penasaran kebaca), aksi (mendengarkan kotak), dan tangan (natural). Kemiripan wajah dinilai Irsyad sendiri. Catatan: mata melirik ke kanan, menjauh dari kado |
+
+Skor: Stop-scroll 4 · Jelas 5 · Terbaca 5 · Brand 5 · Variasi grid 5 · Bisa dibuat 5 · Emosi 4 = 33/35.
