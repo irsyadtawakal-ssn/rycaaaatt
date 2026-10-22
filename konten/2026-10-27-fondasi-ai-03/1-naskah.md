@@ -52,3 +52,13 @@ Tidak ada klaim soal tools, fitur, angka, atau statistik. "AI langsung jawab wal
 Sebelum posting, coba contoh slide 8 di AI yang biasa kamu pakai. Hasil yang benar: AI belum menulis caption, tapi mengajukan paling banyak tiga pertanyaan (misalnya produknya apa, buat siapa, gayanya gimana). Setelah kamu jawab, baru dia bikin captionnya. Kalau dia tetap langsung nulis, kabari saya.
 
 **Asset yang nanti dibutuhkan:** opsional, screenshot asli waktu kamu tes slide 8 (pertanyaan dari AI-nya kelihatan, data pribadi ditutup) untuk slide bukti "Contoh dari saya" (`assets/contoh-tanya-balik.png`). Kalau ada, carousel jadi 10 slide. Tidak ada logo.
+
+## Revisi slide 9 (aturan cover penutup, 22 Okt 2026)
+
+Slide terakhir sekarang cover penutup, bukan teaser seri.
+
+| # | Tipe | Isi |
+| --- | --- | --- |
+| 9 | Cover penutup | Adegan lanjutan dari konsep cover (tanpa teks). **Label:** Giliran kamu. **Pertanyaan:** Kamu paling sering minta AI *bikin* apa? **Baris:** Jawab di komentar, saya baca satu-satu. Ikuti @irsyadtawakal buat fondasi berikutnya. |
+
+Pertanyaan yang sama jadi baris terakhir caption. "Saya baca satu-satu" adalah janji: pastikan Irsyad memang membalas komentar.

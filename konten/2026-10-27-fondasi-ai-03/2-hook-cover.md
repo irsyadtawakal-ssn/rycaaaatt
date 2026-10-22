@@ -115,3 +115,14 @@ Cover sebelumnya (Fondasi AI #2): Track A, wajah Irsyad, dinding krem terang, te
 **Rekomendasi Track A:** A2. Satu-satunya konsep wajah dengan latar gelap, jadi grid tetap bervariasi; gestur "bentar" langsung kebaca sebagai "tanya dulu".
 **Rekomendasi Track B:** B1. Satu objek yang sekaligus bilang "ukur" dan "tanya", nyambung dengan hook dan slide 4.
 **Pilihan utama:** B1. Cover #2 sudah pakai wajah di latar terang; B1 tanpa wajah dan gelap, jadi dua cover berdampingan di grid terlihat beda.
+
+### Adegan cover penutup per konsep (aturan baru, 22 Okt 2026)
+
+| Konsep | Cover (pertanyaan) | Cover penutup (hasilnya) |
+| --- | --- | --- |
+| A1 Meteran di tangan | Irsyad membentangkan meteran ke arah kamera | Meteran tergulung rapi di tangan, Irsyad mengangguk puas |
+| A2 Tunggu dulu | Telapak tangan "bentar", buku catatan siap | Buku catatan sudah terisi tiga baris (tanpa tulisan terbaca), Irsyad tersenyum dan mengacungkan pena oranye, siap kerja |
+| A3 Barista | Condong bertanya ke pelanggan | Menyodorkan gelas oranye yang sudah jadi dengan senyum yakin |
+| B1 Meteran jadi tanda tanya | Meteran melengkung jadi tanda tanya | Meteran yang sama terbentang lurus dan rapi di permukaan indigo, ujungnya sedikit tergulung |
+| B2 Formulir kosong | Tiga baris kosong | Tiga baris sudah dicentang oranye |
+| B3 Mikrofon ke kursi kosong | Kursi kosong | Kursi ditempati, mikrofon tetap di depan |

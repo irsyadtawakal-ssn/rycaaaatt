@@ -11,6 +11,7 @@ Lalu panggil `/carousel-director` (atau `/content-writer` untuk post ringan, Ree
 | `1-naskah.md` | Brief dan naskah | Pilar, seri, angle, kerangka, naskah per slide, fakta yang dicek, asset yang nanti dibutuhkan |
 | `2-hook-cover.md` | Copy cover dan hook | Copy cover utama dan alternatif, 6 hook dengan skor, hook terpilih, tabel 6 konsep cover |
 | `3-cover-prompt.json` | Prompt cover | JSON prompt untuk ChatGPT Image atau Nano Banana |
+| `3-cover-penutup-prompt.json` | Prompt cover | JSON prompt adegan lanjutan untuk cover penutup (slide terakhir), tanpa teks |
 | `4-slide-plan.md` | Rencana slide | Satu baris per slide, layout, grafis, checklist asset, lalu hasil cek gabungan |
 | `build_slides.py` | Render | Skrip yang memakai `lib/slides.py` dan menulis `slides.html` |
 | `assets/` | Sebelum render | Logo resmi, screenshot asli, hasil prompt yang sudah dites |

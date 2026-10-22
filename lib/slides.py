@@ -231,6 +231,23 @@ def image_slide(n, label, headline, body, graphic, last=False, bridge=None):
             f'<div class="txt" style="top:150px"><div class="lab">{_e(label)}</div><h1>{_headline(headline)}</h1>'
             f'<div class="body">{_e(body)}</div></div>{graphic}{_bridge(bridge)}</div>')
 
+CLOSING_LINE = "Jawab di komentar, saya baca satu-satu. Ikuti @irsyadtawakal buat fondasi berikutnya."
+
+def closing_cover(n, image, question, label="Giliran kamu", line=CLOSING_LINE, tone="dark"):
+    """Slide terakhir: cover penutup. image = URI gambar adegan lanjutan dari konsep cover
+    (digenerate tanpa teks, mis. output/cover-penutup.png). question = satu pertanyaan komentar
+    sungguhan dengan satu *kata oranye*. tone="dark" untuk gambar gelap (teks putih), "light" untuk
+    gambar terang (teks Deep Indigo). Tanpa image: latar indigo polos sampai gambarnya ada."""
+    col = WH if tone == "dark" else IND
+    bg = (f'<img src="{_e(image)}" style="position:absolute;inset:0;width:1080px;height:1350px;object-fit:cover">'
+          if image else "")
+    corners = "".join(f'<div class="corner {c}" style="color:{col}">{_e(t)}</div>' for c, t in
+                      (("tl", "@irsyadtawakal"), ("tr", str(n)), ("bl", "Simpan dulu"), ("br", "Ikuti @irsyadtawakal")))
+    return (f'<div class="s" id="s{n}" style="color:{col}">{bg}{corners}'
+            f'<div class="txt" style="top:150px;z-index:2"><div class="lab">{_e(label)}</div>'
+            f'<h1>{_headline(question)}</h1>'
+            f'<div class="body" style="font-weight:500">{_e(line)}</div></div></div>')
+
 # ---------- layout dinamis ----------
 #
 # Grafis digambar di atas "panggung" (stage) dengan koordinatnya sendiri:

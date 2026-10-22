@@ -42,7 +42,7 @@ Skip gates only when Irsyad says so explicitly ("langsung semua", "pilih sendiri
 | Stage | Output | Gate: Irsyad decides |
 | --- | --- | --- |
 | 0. Brief | Inputs collected (ask only what is missing) | — |
-| 1. Script | Angle, one line per slide (with Contekan and series teaser), facts checked, early asset list | Approve or change the script |
+| 1. Script | Angle, one line per slide (with Contekan and the closing cover question), facts checked, early asset list | Approve or change the script |
 | 2. Copy | Cover copy (main and alternative) and six hooks | Pick the cover copy and one hook |
 | 3. Concepts | Six cover concepts with scores | **Pick the cover concept** |
 | 4a. Cover prompt | JSON prompt for the chosen concept, plus the photos it needs | Generates the cover and uploads it |
@@ -79,8 +79,8 @@ Built into the script and the plan, so people swipe to the end, save, and come b
 - **Bridge lines:** on up to half of the slides, one short line at the bottom that truly teases the next slide ("Berikutnya: langkah yang paling sering dilewati"). Never a tease the next slide does not pay off.
 - **Contekan:** a recap type slide just before "Coba hari ini", with the 3–5 points as numbered rows of 3–8 words. It must make sense on its own, because it is the slide people save.
 - **Proof slide (optional):** "Contoh dari saya", a graphic slide with a real screenshot of Irsyad's own prompt and result. Only when Irsyad has one (asset checklist). Never a mock-up.
-- **Series teaser:** the last slide names the next episode in one line, and the cover carries the series label. Ask Irsyad for the next topic at the brief; if there is none, write "Episode berikutnya" without a date.
-- **Comment question:** in the caption only, one real question the reader can answer from their own life. Never a keyword to type.
+- **Closing cover:** the last slide is a follow-up scene from the same cover concept (generated without text), with the label "Giliran kamu", one real comment question as the headline, and the follow line (Visual Brain, Engagement structure). No series teaser. The cover still carries the series label.
+- **Comment question:** one real question the reader can answer from their own life, on the closing cover and repeated as the caption's last line. A keyword to type only when a real asset is sent in return; never ask for shares or tags (Voice section 6).
 
 ## Stage 0 — Brief
 
@@ -90,7 +90,6 @@ Collect, asking only for what cannot be defaulted:
 - **Payoff:** what the carousel actually delivers. If unknown, propose one.
 - **Slide count:** default 8, allowed 7–10.
 - **Last 3 covers** (track, colours, text position), for grid variety. If unknown, ask once and move on.
-- **Next episode:** the topic of the next carousel in the series, for the teaser on the last slide. If none is planned, say the teaser will be generic.
 
 ## Stage 1 — Angle and script
 
@@ -109,7 +108,7 @@ Script, one line per slide, each with its slide type (see Stage 4b):
 - Optional proof slide "Contoh dari saya", only if Irsyad has a real screenshot.
 - Contekan: the recap of all points on one screen.
 - "Coba hari ini": the concrete action or full prompt. It pays off the cover's promise.
-- Last slide: the series teaser for the next episode, with "Simpan dulu" and "Ikuti @irsyadtawakal" in the corners. "Coba hari ini" and the teaser may share one slide when the carousel is 7 slides.
+- Last slide: the closing cover, with the comment question, the follow line, and "Simpan dulu" and "Ikuti @irsyadtawakal" in the corners. Write the question here; the scene comes with the cover concept.
 
 Then add:
 - **Facts to check:** every claim about tools, models, features or statistics. Verify with a search when you can and give the source. If it cannot be verified, rewrite or drop it. Never invent numbers.
@@ -232,6 +231,15 @@ Then tell Irsyad, in a short list:
 - Generate 2–4 variations, pick the one with perfect spelling, and upload it here for review.
 - Image models do not load font files: font names are style hints, and the reference cover matters most. If the typography keeps failing, generate the image without text and set the text in code.
 
+### Closing cover prompt
+
+Every concept also needs a follow-up scene for the closing cover on the last slide: the same subject, setting, light and palette, one moment later, showing the cover's question resolved (the guess pays off, the measuring is done). Write a second JSON prompt in the same format with:
+- the same `style`, `technical`, `materials` and palette as the cover prompt, and for Track A the same `person.identity` line;
+- a calm area in the top ~45% for the text set in code;
+- **no text at all**: `composition.ui_elements` says "No text, letters, numbers or logos anywhere in the image", and `quality.avoid` lists any text.
+
+Save it as `3-cover-penutup-prompt.json`. Tell Irsyad to generate it in the same chat right after the cover, attaching the chosen cover, with "Same scene, same person, same light and colours, one moment later:", and to save the result as `output/cover-penutup.png`. Review it with checks 6 to 8 below, plus: no text, and it reads as the same scene as the cover.
+
 ### Review (when Irsyad uploads the cover)
 
 Report pass or fix for each check:
@@ -250,7 +258,7 @@ Score it with the Stage 3 criteria. For each fix, give a short edit prompt to pa
 
 Build from the approved script. The Visual Brain sections on editorial rhythm, engagement structure, chat-objects graphics and dynamic layout win over this summary.
 
-**Hard rule:** the cover image never appears on an inner slide (no crop, detail, object or scene).
+**Hard rule:** the cover image never appears on an inner slide (no crop, detail, object or scene). The only exception is the closing cover on the last slide, a separate follow-up scene from the same concept; render it with `closing_cover()` from `output/cover-penutup.png`.
 
 ### Slide types
 
@@ -333,7 +341,7 @@ Once the cover and the slides both exist, report pass or fix for:
 7. Every slide carries one idea, and the last slide has one call to action, not several.
 8. No AI tells in the slide text (content-writer Stage 3): at most one "Bukan X, tapi Y" in the whole carousel, no question answered right away, no stock openers, no hype words.
 9. Every graphic slide is chat objects: tilted and layered, one solid hero object with a real example inside, exactly one orange mark, no invented AI answer, and any tool logo or screenshot is the real file Irsyad sent, unaltered (private data covered).
-10. Engagement structure: step labels show progress, every bridge line is paid off by the next slide, the Contekan stands on its own, and the last slide teases the next episode.
+10. Engagement structure: step labels show progress, every bridge line is paid off by the next slide, the Contekan stands on its own, and the closing cover continues the cover concept with a real comment question that matches the caption's last line.
 11. No text is cut off or squeezed below its minimum size.
 
 **Gate 5:** approve the final frames.
@@ -341,7 +349,7 @@ Once the cover and the slides both exist, report pass or fix for:
 ## Stage 6 — Bundle
 
 - **Captions for four channels** (Voice section 7; use content-writer's "Captions per channel" if it is loaded):
-  - **Instagram:** the chosen hook as the first line, the main keyword within the first ~125 characters, the answer kept in the slides, one real comment question ("Kamu kerja di bidang apa?"), 3–5 hashtags. Its own hook, not a copy of slide 1 or the cover.
+  - **Instagram:** the chosen hook as the first line, the main keyword within the first ~125 characters, the answer kept in the slides, one real comment question, the same one as on the closing cover, 3–5 hashtags. Its own hook, not a copy of slide 1 or the cover.
   - **TikTok** (same slides in photo mode): a searched keyword phrase first, 1–3 sentences, 3–5 search hashtags. Until Irsyad has tested how TikTok shows 4:5 slides, remind him to check the first upload.
   - **Threads:** a text version that is useful without the slides: the sharpest point first, one idea per post, the practical step last, a question that invites replies; 1–2 slides attached at most.
   - **LinkedIn** (pillars 1, 2, 4, 5): a business angle from a real work situation, short paragraphs, at most 3 hashtags, and the service line for pillars 2 and 4.

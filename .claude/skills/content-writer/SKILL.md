@@ -75,7 +75,7 @@ One line per slide, as the plain-text script **carousel-director** expects:
 - **Proof slide (optional):** "Contoh dari saya", built around a real screenshot of Irsyad's own prompt and result. Only if he has one; otherwise leave it out and never describe a mock-up.
 - **Contekan:** a recap slide with the 3–5 points as numbered rows of 3–8 words, which makes sense on its own.
 - "Coba hari ini", with the concrete action or the full prompt.
-- The last slide teases the next episode in the series in one line. If no next topic is planned, write "Episode berikutnya" without a date.
+- The last slide is the closing cover (carousel-director): one real comment question the reader can answer from their own life, plus the follow line. No series teaser. The same question ends the caption.
 
 Each slide carries one idea. If a slide needs lengthy setup, split it.
 
@@ -155,7 +155,7 @@ Rewrite until every line passes, then show the final version with a short check 
 5. **Honest:** no invented numbers, results, testimonials or screenshots. The hook's promise is paid off. No fear without a way out.
 6. **Brand refusals:** nothing from Positioning section 3 (hype without fundamentals, AI as a toy, illegal shortcuts, tool-hopping, instant promises, fear content).
 7. **Ending:** a concrete result or one thing to try today, never theory.
-8. **Engagement:** for carousels, the Contekan stands on its own, every bridge line is paid off, and the last slide teases the next episode. For videos, every loop and rehook is paid off and the ending flows into the first frame. For captions, one real comment question.
+8. **Engagement:** for carousels, the Contekan stands on its own, every bridge line is paid off, and the last slide is the closing cover with a real comment question. For videos, every loop and rehook is paid off and the ending flows into the first frame. For captions, one real comment question.
 9. **Channels:** each channel's text follows its own job (table above), Threads is useful without the image, and the service line appears only where allowed. Each channel goes under its own heading in `5-caption.md` (`## Instagram`, `## TikTok`, `## Threads`, `## LinkedIn`). Check each caption with `py lib/ig/cek_caption.py <post>/5-caption.md --bagian <Channel> --channel <channel> --kata-kunci "<main keyword>" --pilar <N>` (add `--aset` only when a real asset is sent, `--video` for a video). Fix every FAIL, say which WARNs you left and why, and run `py lib/ig/bersihkan.py <post>/5-caption.md --tulis` if it finds invisible characters.
 10. **Pillar:** the piece fits its pillar and uses that series name.
 
