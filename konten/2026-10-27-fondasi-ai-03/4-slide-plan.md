@@ -18,3 +18,5 @@ Disimpan sebagai `output/cover.png` (diperkecil ke 1080 × 1350).
 | 8. Penolakan brand, wajah, tangan | Lolos untuk tangan (lima jari, wajar) dan properti. Kemiripan wajah dikonfirmasi Irsyad |
 
 Skor: Stop-scroll 5 · Jelas 5 · Terbaca 5 · Brand 5 · Variasi grid 4 · Bisa dibuat 5 · Emosi 4 = **33/35**. Emosi 4 karena ekspresinya ramah dan lagi ngomong, tapi alisnya belum naik, jadi "nanya"-nya kurang tegas.
+
+Keputusan Irsyad: cover versi 1 dipakai. Prompt gambar slide CTA ditulis di `3b-cta-prompt.json`.
