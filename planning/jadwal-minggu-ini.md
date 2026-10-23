@@ -6,7 +6,7 @@ Isi dari Bank Ide (`planning/bank-ide.md`) mengikuti jadwal di `brand/02-positio
 
 | Hari | Pagi (carousel utama) | Folder | Sore (post ringan) | Folder |
 | --- | --- | --- | --- | --- |
-| Senin 26/10 | Fondasi AI #2 · Kenapa AI bisa jawab ngasal | `konten/2026-10-26-fondasi-ai-02` | Prompt Siap Pakai #1 · Foto produk UMKM di meja kayu (post prompt) | |
+| Senin 26/10 | (kosong: Fondasi AI #2 sudah tayang lebih awal, Jumat 23/10) | `konten/2026-10-26-fondasi-ai-02` | Prompt Siap Pakai #1 · Foto produk UMKM di meja kayu (post prompt) | |
 | Selasa 27/10 | Kerja Bareng AI #1 · Caption promo seminggu dalam 10 menit | | Fondasi AI #3 · Minta AI tanya balik dulu (carousel 8 slide) | `konten/2026-10-27-fondasi-ai-03` |
 | Rabu 28/10 | Fondasi AI #4 · Prompt itu briefing karyawan baru | | Update yang Penting #1 · Yang tetap sama walau tools berganti (carousel pendek) | |
 | Kamis 29/10 | Kerja Bareng AI #2 · Rapikan laporan mingguan | | Prompt Siap Pakai #2 · Foto makanan menggugah selera (post prompt) | |
