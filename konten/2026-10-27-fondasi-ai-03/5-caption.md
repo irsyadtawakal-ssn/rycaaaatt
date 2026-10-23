@@ -62,7 +62,7 @@ Di tim kamu, tugas apa yang paling sering harus direvisi setelah dikerjakan AI?
 
 - Instagram ditutup dengan pertanyaan yang sama dengan slide 8 (CTA).
 - Tanpa kalimat layanan (pilar 1, pembaca pemula).
-- LinkedIn memakai perumpamaan karyawan baru, nyambung ke Fondasi AI #4 besok paginya.
+- LinkedIn memakai perumpamaan karyawan baru, nyambung ke Fondasi AI #4 (Rabu 28/10).
 - TikTok: cek tampilan slide 4:5 di mode foto pada upload pertama.
 - Threads: satu post (di bawah 500 karakter), lampirkan paling banyak dua slide (saran: slide 4 dan slide 7).
 
