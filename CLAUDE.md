@@ -11,7 +11,7 @@ Semua output berpijak pada dokumen di `brand/`. Baca bagian yang relevan sebelum
 | `brand/01-brand-guide.md` | Warna, font, suara singkat, handle | Brand Guide |
 | `brand/02-positioning.md` | Audiens, sikap, yang ditolak, 6 pilar konten, jadwal, channel, jalur ke klien | Pilar 1 Positioning |
 | `brand/03-voice.md` | Nada, kosakata, caption, ciri tulisan AI (6b), copy per channel (7) | Pilar 2 Voice |
-| `brand/04-visual-brain.md` | Cover, slide isi, objek obrolan, layout dinamis, engagement | Pilar 3 Visual Brain |
+| `brand/04-visual-brain.md` | Cover, slide isi, objek obrolan, layout dinamis, engagement, slide CTA (lanjutan cover) | Pilar 3 Visual Brain |
 | `brand/05-story.md` | Cerita dan bukti nyata Irsyad | Pilar 4 Story |
 | `brand/06-video-brain.md` | Format video, struktur tiga loop, 3 detik pertama, caption, grafis, editing, cara tes | Video Brain |
 | `planning/bank-ide.md` | 60 topik siap pakai, ide dari audiens, ide dari riset | Bank Ide |
@@ -39,6 +39,7 @@ Skill viral-research sampai dm-writer diadaptasi dari instagram-agent-skill (MIT
 
 - **Bertahap.** Di akhir tiap tahap, simpan hasilnya ke file, tunjukkan ke Irsyad, lalu berhenti dan tunggu keputusannya. Jangan lanjut sendiri dengan pilihan yang direkomendasikan, kecuali Irsyad bilang "langsung semua" atau "pilih sendiri".
 - **Satu folder per post:** `konten/YYYY-MM-DD-<seri>-<nomor>/`, disalin dari `konten/_template/`. Urutan file ada di `konten/_template/README.md`. Kalau Irsyad bilang "lanjut", buka folder terbaru dan teruskan dari file pertama yang belum ada.
+- **Slide terakhir carousel = slide CTA:** adegan cover beberapa detik kemudian (gambar baru tanpa teks, `assets/cta.png`, prompt di `3b-cta-prompt.json`), pertanyaan komentar soal topik, dan ajakan simpan serta follow, dirender dengan `cta_slide` di `lib/slides.py`. Tidak ada lagi teaser episode berikutnya. Aturan lengkap di Visual Brain bagian "CTA slide".
 - **Render slide** dengan `lib/slides.py` lewat `build_slides.py` di folder post, lalu `node lib/render.mjs <post>/slides.html <post>/output [<post>/output/cover.png]`. Lihat setiap PNG sebelum ditunjukkan.
 - **Asset dulu, baru render.** Minta logo resmi, screenshot asli, atau foto yang dibutuhkan, dengan nama file dan tujuan slidenya. Jangan pernah menggambar ulang logo atau membuat screenshot palsu.
 - **Canva (opsional):** server MCP `canva` di `.mcp.json`. Master template slide isi di Canva bernama "MASTER Slide Isi @irsyadtawakal"; salin desain itu, jangan mengubah master-nya.
