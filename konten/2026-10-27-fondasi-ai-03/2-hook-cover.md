@@ -42,3 +42,11 @@ Kata yang sudah ada di cover utama (suruh, nanya, dulu, jawab) tidak dipakai lag
 Catatan: #5 memakai pertanyaan, tapi jawabannya baru datang di slide 5, jadi bukan pola "pertanyaan langsung dijawab sendiri". #2 lolos swap test karena tukang cukur cuma muncul di carousel ini.
 
 **Rekomendasi:** #2. Paling bikin berhenti scroll karena nggak kedengeran kayak konten AI sama sekali, dan dibayar langsung di slide 4. Hook #2 kemarin juga Fix a mistake, jadi ganti formula bikin feed nggak monoton. Cadangan: #5, nyambung paling kuat ke episode kemarin buat yang sudah baca #2.
+
+## Keputusan Irsyad (Gate 2)
+
+- **Cover:** utama. Suruh AI / nanya / dulu, sebelum dia *jawab*
+- **Hook:** #5 Fix a mistake.
+  - Slide 2 headline: Udah kasih konteks tapi hasil AI masih meleset? Coba balik *posisinya*.
+  - Baris pertama caption: Udah kasih konteks tapi hasil AI masih meleset? Coba balik posisinya.
+  - Slide 5 ("Balik posisinya, AI yang *nanya*") membayar janji ini langsung.
