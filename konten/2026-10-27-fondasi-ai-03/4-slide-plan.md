@@ -85,3 +85,23 @@ Semua grafis: tanpa tekstur, bayangan, atau glow. Kedalaman hanya dari tumpukan 
 | Screenshot asli tes prompt slide 7 (opsional, data pribadi ditutup) | Satu pertanyaan asli di grafis slide 5 | `assets/contoh-nanya-balik.png` | Belum. Kalau tidak ada, chip tetap "?" |
 
 Tidak ada logo (slide tidak menyebut nama tools).
+
+## Render
+
+Dirender dengan `build_slides.py`. Perbaikan setelah lihat PNG: kolom ketik transparan di slide 2 dihapus (yang tersisa cuma tombol kirim, terlihat aneh); tanda tanya slide 3 digeser supaya utuh; bubble slide 5 diturunkan supaya tidak menutup handle, garis bawah oranye dipindah tepat di bawah "tanya saya dulu". PDF LinkedIn (cover + 7 slide) dibuat ulang dari PNG karena PDF dari `lib/render.mjs` masih berisi gambar rusak.
+
+## Cek gabungan (tahap 5)
+
+| # | Cek | Hasil |
+| --- | --- | --- |
+| 1 | Janji cover dibayar | Lolos: "Suruh AI nanya dulu" dibayar slide 5 (caranya) dan slide 7 (kalimatnya) |
+| 2 | Slide 2 jalan tanpa cover | Lolos: pertanyaan + "Coba balik posisinya" berdiri sendiri |
+| 3 | Ritme, variasi layout, gambar cover | Lolos: 2 grafis (Bawah, Atas), tidak ada gambar cover di slide isi. Slide 8 lanjutan adegan cover (gambar baru, bukan potongan), teks di area tenang. Panel kayu di dinding bawah slide 8 tidak ada di cover, masih satu suasana |
+| 4 | Fakta dan tes | Tidak ada klaim fakta. **Belum:** prompt slide 7 belum dites Irsyad |
+| 5 | Pre-flight Visual Brain | Lolos: handle di semua slide, satu kata oranye per headline, label pojok benar, hanya tiga warna di slide isi |
+| 6 | Jumlah yang dijanjikan | Tidak ada angka di cover atau hook |
+| 7 | Satu ide per slide, satu CTA | Lolos |
+| 8 | Ciri tulisan AI | Lolos: nol "Bukan X, tapi Y", tanpa kata hype. Label slide 2 berupa pertanyaan, dan headline-nya baru sebagian jawaban; jawaban lengkap di slide 5 |
+| 9 | Grafis objek obrolan | Lolos: miring dan bertumpuk, satu objek utama dengan contoh nyata, tepat satu tanda oranye, tanpa jawaban AI karangan (chip "?" kosong) |
+| 10 | Struktur engagement | Lolos: jembatan slide 3 dan 5 dibayar, Contekan berdiri sendiri, slide 8 CTA dengan satu pertanyaan komentar (caption Instagram nanti ditutup dengan pertanyaan yang sama) |
+| 11 | Teks terpotong | Lolos |
