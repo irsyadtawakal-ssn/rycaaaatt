@@ -24,3 +24,7 @@ Keputusan Irsyad: cover versi 1 dipakai. Prompt gambar slide CTA ditulis di `3b-
 ## Gambar slide CTA (versi 1, dari Irsyad)
 
 Disimpan sebagai `assets/cta.png`. Tanpa teks (sesuai rencana), adegan, baju, cahaya dan latar sama dengan cover; cermin hanya memantulkan cahaya blur. Kepala lebih tinggi dari yang diminta prompt (puncak rambut di ±29% tinggi frame, bukan 50%), jadi teks CTA dirender lebih kecil: `cta_slide(..., tone="dark", top=96, size=80)`. Baris ajakan sedikit menyentuh ujung rambut, tetap terbaca.
+
+## Gambar slide CTA (versi 2, dipakai)
+
+Generate ulang dengan kamera mundur. Puncak rambut sekarang di ±40% tinggi frame, jadi teks CTA memakai ukuran normal: `cta_slide(..., tone="dark", top=130)`, tidak menyentuh rambut. Ada panel kayu di dinding bawah yang tidak ada di cover; masih satu suasana, dibiarkan. Versi 1 diganti.
