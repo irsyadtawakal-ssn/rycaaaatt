@@ -134,3 +134,48 @@ Variasi grid A dikurangi satu karena #2 juga wajah Irsyad; dua cover Irsyad berd
 **Rekomendasi Track A:** A1. Gambarnya sama dengan perumpamaan slide 4, jadi cover dan isi saling menguatkan, dan lanjutan CTA-nya (lihat cermin, puas) paling memuaskan dari semua konsep. Dinding hijau tua dengan teks putih juga beda jauh dari krem di #2.
 **Rekomendasi Track B:** B1. Tanda tanya dari meteran langsung terbaca "tanya dulu", paling aman digenerate, dan paling jernih di thumbnail.
 **Pilihan utama:** A1, kecuali cover Kerja Bareng AI #1 pagi itu juga pakai wajahmu. Kalau iya, pilih B1 supaya nggak tiga cover wajah berturut-turut.
+
+## Konsep cover, putaran 2 (diminta Irsyad: skor di atas 30)
+
+Putaran 1 cuma A1 yang lewat 30. Track B dinilai dari 30 (tanpa kolom Emosi), jadi tidak bisa lewat 30; putaran ini fokus Track A. Perubahan besar dari putaran 1: **Irsyad memerankan pihak yang nanya** (tukang cukur, pelayan), dan dia nanya langsung ke lensa. Yang lihat cover jadi "pelanggannya". Cover langsung terbaca sebagai "AI yang nanya dulu", dan tatapan ke lensa menahan scroll.
+
+**A4. Sisir jadi mikrofon**
+- Metafora: tukang cukur yang mewawancarai kamu sebelum motong. Kamu, yang lihat cover, adalah pelanggannya.
+- Adegan: Irsyad sebagai tukang cukur, celemek cukur hitam polos, gunting terselip di saku dada. Dia menyodorkan sisir oranye ke arah lensa seperti mikrofon wawancara, badan sedikit condong ke depan. Latar barbershop dinding hijau tua polos, ujung kursi cukur kelihatan samar di belakang. Kamera sejajar mata.
+- Mood dan palet: hangat, agak gelap, satu lampu kuning dari kiri atas, rim light tipis dari kanan belakang. Teks White.
+- Posisi teks: atas, di dinding hijau yang polos.
+- Interaksi: kepala Irsyad menutup bawah kata "nanya" sedikit (maks 30% huruf).
+- Ekspresi: penasaran dan ramah, alis naik, senyum kecil, mulut setengah terbuka seperti baru nanya "mau model apa?". Aksi: menyodorkan sisir. Arah mata: ke lensa. Crop: chest-up.
+- Lanjutan CTA: Irsyad memegang cermin tangan menghadap lensa, seolah memperlihatkan hasil ke kamu, senyum puas, sisir terselip di saku.
+- Risiko: sisir oranye harus jelas sisir (gigi sisir kelihatan), bukan mikrofon sungguhan; tangan yang menyodor ke lensa bisa terdistorsi (pakai 85mm, jangan wide).
+
+**A5. Gunting ditahan, nanya dulu**
+- Metafora: gunting sudah terbuka, tapi dia berhenti dan nanya dulu.
+- Adegan: Irsyad sebagai tukang cukur berdiri di belakang pelanggan (pelanggan hanya kelihatan belakang kepalanya, bawah frame, berjubah krem). Tangan kanan Irsyad mengangkat gunting bergagang oranye yang terbuka, tertahan di udara; tangan kiri memegang sisir. Dia mencondongkan kepala ke depan dan melihat ke lensa, seolah lensa adalah cermin barbershop.
+- Mood dan palet: hangat, dinding hijau tua, lampu kuning dari kiri. Teks White.
+- Posisi teks: atas.
+- Interaksi: subjek di bawah blok teks, tidak menyentuh.
+- Ekspresi: berhenti sebentar, alis naik, bibir sedikit maju, wajah "bentar, mau yang mana dulu?". Aksi: menahan gunting. Arah mata: ke lensa (lewat cermin). Crop: chest-up untuk Irsyad, belakang kepala pelanggan terpotong di bawah.
+- Lanjutan CTA: gunting sudah diletakkan, Irsyad memegang cermin tangan di belakang kepala pelanggan, jempol ke atas ke arah lensa, senyum lebar.
+- Risiko: dua orang di frame (pelanggan hanya belakang kepala, jangan ada wajah kedua); gunting dan dua tangan sekaligus menambah risiko jari.
+
+**A6. Buku pesanan siap**
+- Metafora: pelayan warung yang nanya dulu "pedes nggak, Kak?" sebelum ke dapur. Kamu yang ditanya.
+- Adegan: Irsyad sebagai pelayan warung, celemek polos, berdiri condong ke arah lensa, buku pesanan kecil oranye terbuka di tangan kiri (halaman kosong), pulpen di tangan kanan siap menulis. Latar warung malam yang sangat blur, satu bohlam kuning di belakang. Kamera sejajar mata, seperti dari kursi pelanggan.
+- Mood dan palet: gelap hangat, bokeh kuning. Teks White.
+- Posisi teks: atas, di area gelap yang blur.
+- Interaksi: kepala Irsyad menutup bawah kata "nanya" sedikit.
+- Ekspresi: siap mendengar, alis naik, kepala sedikit dimiringkan, senyum tipis. Aksi: siap menulis. Arah mata: ke lensa. Crop: chest-up.
+- Lanjutan CTA: Irsyad menaruh sepiring makanan ke arah lensa, senyum bangga, buku pesanan terselip di celemek.
+- Risiko: tulisan di buku pesanan (minta halaman kosong); bokeh latar harus tetap tenang di belakang teks.
+
+### Skor putaran 2
+
+| Konsep | Stop-scroll | Jelas | Terbaca | Brand | Variasi grid | Bisa dibuat | Emosi | Total |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **A4 Sisir jadi mikrofon** | 5 | 5 | 4 | 5 | 4 | 4 | 5 | **32/35** |
+| A5 Gunting ditahan | 5 | 5 | 4 | 5 | 4 | 3 | 5 | 31/35 |
+| A6 Buku pesanan siap | 5 | 4 | 4 | 5 | 4 | 4 | 5 | 31/35 |
+| A1 Kursi cukur (putaran 1) | 5 | 5 | 4 | 5 | 4 | 3 | 5 | 31/35 |
+
+**Rekomendasi:** A4. Satu orang, satu properti, tatapan ke lensa: paling aman digenerate dan paling langsung terbaca "AI yang nanya ke kamu". Lanjutan CTA-nya (cermin dihadapkan ke kamu) paling nyambung dengan pertanyaan komentar "Tugas apa yang hasil AI-nya paling sering meleset?". Cadangan: A5 kalau mau ketegangan gunting yang tertahan, dengan risiko tangan lebih tinggi.
