@@ -1,1 +1,74 @@
-{}
+{
+  "prompt": {
+    "scene": {
+      "description": "A vertical 4:5 Instagram carousel cover, 1080x1350, editorial magazine style, the photo as the hero with one compact centred text block in the top part of the frame. The same person from the attached reference photos plays a friendly barber in a quiet vintage barbershop: chest-up in the lower half of the frame, wearing a plain black barber apron over a plain off-white t-shirt, a pair of closed silver scissors tucked into the apron's chest pocket. He leans slightly toward the camera and holds out a vivid orange (#EF5F18) barber comb toward the lens like an interviewer's microphone, as if asking the viewer 'how do you want it cut?'. The wall behind him is a plain, matte deep bottle green, and the backrest of a vintage barber chair shows softly out of focus behind his shoulder. One warm tungsten key light from camera-left lights his face, with a thin rim light from behind right separating him from the dark wall. Palette: deep bottle-green wall, warm skin tones, black apron, one orange comb as the only saturated accent, white #FFFFFF text. The upper 40% of the frame is a calm, empty, evenly lit green wall for the text. Text, exactly as written, in white #FFFFFF: kicker 'Suruh AI', giant word 'nanya', line 'dulu, sebelum dia jawab' with only 'jawab' in orange followed by a cursor bar, and four small corner labels '@irsyadtawakal', 'Fondasi AI #3', 'Simpan dulu', 'Geser →'.",
+      "subject": "The same person from the attached reference photos, dressed as a barber, holding out an orange comb toward the lens like a microphone",
+      "setting": "A quiet vintage barbershop: plain matte deep bottle-green wall, the softly blurred backrest of one vintage barber chair, no mirrors, signs, posters or shelves visible",
+      "action": "Leaning toward the camera and offering the comb to the viewer as if interviewing them before a haircut"
+    },
+    "person": {
+      "identity": "The same person from the attached reference photos. Keep his face, facial structure, skin tone, hairstyle and body proportions exactly the same as in the reference photos. Do not beautify, slim, or change his age.",
+      "expression": "Curious and friendly, as if he has just asked a question and is waiting for the answer: eyebrows lifted, eyes bright and attentive, a small open-mouthed half-smile",
+      "gaze": "Direct eye contact into the lens, so the viewer feels they are the customer being asked",
+      "pose_gesture": "Upper body leaning slightly forward, right hand holding the orange comb by its handle and pointing its end toward the lens at chest height like a microphone, comb teeth clearly visible, left hand relaxed at his side out of frame",
+      "framing": "Chest-up crop, the face about one fifth of the frame height, head placed just below the text block in the upper-middle of the lower half",
+      "wardrobe": "Plain black barber apron with a chest pocket over a plain off-white crew-neck t-shirt, no logos, no print",
+      "interaction": "The top of his head overlaps the bottom edge of the giant word 'nanya' from in front, covering no more than about 30% of its letters; the comb stays below the text block"
+    },
+    "style": {
+      "primary": "editorial lifestyle portrait photography",
+      "rendering_quality": "photorealistic, high-resolution",
+      "surface_textures": "Natural, matte surfaces; subtle painted-wall texture, no grain effects",
+      "lighting": "One soft warm tungsten key light from camera-left at about 40 degrees, around 3800K, catchlights in both eyes; a thin cool rim light from behind right; the wall falls off gently into darker green at the edges, while the upper area behind the text stays evenly lit and calm"
+    },
+    "technical": {
+      "camera": {
+        "focal_length": "85mm",
+        "aperture": "f/2.8",
+        "depth_of_field": "shallow: face and comb sharp, the barber chair and wall softly out of focus",
+        "angle": "eye level"
+      },
+      "resolution": "editorial print quality",
+      "rendering": "Clean colour grade, deep greens and warm neutrals, true-to-life skin, no heavy post-processing"
+    },
+    "materials": {
+      "skin": "Natural skin texture with visible pores and real imperfections, no airbrushing",
+      "fabric": "Matte black cotton apron with natural creases, soft cotton t-shirt",
+      "surfaces": "Glossy orange plastic comb with fine teeth and soft highlights; brushed silver scissors; matte painted green wall; worn leather on the barber chair"
+    },
+    "composition": {
+      "perspective": "Frontal, shallow depth: person and comb in the foreground plane, the chair and wall behind",
+      "framing": "centered",
+      "subject_placement": "Person centred in the lower half; the orange comb pointing at the lens is the second point of interest; the eye travels from the headline down to his face, then to the comb",
+      "ui_elements": "One compact centred text block placed in the top part of the frame, over a calm area of the image, occupying no more than about 30% of the frame. 1) Kicker line: elegant high-contrast serif italic (like Instrument Serif Italic), about 104px, white #FFFFFF: 'Suruh AI'. 2) Directly below, one giant lowercase word in a heavy extra-bold condensed grotesque (like Bricolage Grotesque ExtraBold at about 80% width), about 360px, line height 0.78, slightly tight letter spacing, white #FFFFFF: 'nanya'. 3) About 30px below the giant word, one centred line in the same grotesque at medium weight, about 46px, white #FFFFFF: 'dulu, sebelum dia jawab', where only the word 'jawab' is extra-bold vivid orange #EF5F18, followed immediately by a thin vertical text-cursor bar in white #FFFFFF touching the end of that word with no gap. 4) Four small corner labels in a clean geometric sans-serif medium (like Figtree Medium), about 26px, white #FFFFFF at 85% opacity: top-left '@irsyadtawakal', top-right 'Fondasi AI #3', bottom-left 'Simpan dulu', bottom-right 'Geser →'; about 44px from the top, 52px from the bottom and 64px from the sides. No other text anywhere: no hook line, no slide numbers, no extra captions. All text exactly as written, lowercase where written lowercase. The subject's top edge overlaps the bottom of the giant word, standing in front of it, without covering more than about 30% of its letters or touching the kicker or the bottom line."
+    },
+    "quality": {
+      "include": [
+        "curious, friendly 'I'm asking you' expression readable at thumbnail size",
+        "direct eye contact into the lens",
+        "orange comb clearly a comb, with visible teeth, offered like a microphone",
+        "single orange comb as the only saturated accent in the photo",
+        "calm, empty green wall behind the headline",
+        "warm directional light with catchlights and a rim light",
+        "natural skin texture and real proportions",
+        "crisp, perfectly spelled typography",
+        "giant word clearly readable with the head overlapping its base",
+        "warm, quiet editorial barbershop feel"
+      ],
+      "avoid": [
+        "misspelled or extra text, text on the apron, comb or wall",
+        "ALL CAPS or script fonts",
+        "more than one orange word, or a gap between 'jawab' and the cursor bar",
+        "the kicker in a sans-serif, the bottom line in heavy bold",
+        "a real microphone instead of a comb",
+        "mirrors, shop signs, posters, price lists, shelves or bottles in the background",
+        "a second person or a second face",
+        "a different-looking face, beautified or airbrushed skin, changed age or facial structure",
+        "extra fingers, warped hands or a hand distorted by perspective",
+        "a stiff posed smile",
+        "robots, glow, neon, watermarks or logos"
+      ],
+      "reference_standard": "Kinfolk and Monocle editorial portraits; quiet, warm barbershop portrait photography"
+    }
+  }
+}

@@ -179,3 +179,7 @@ Putaran 1 cuma A1 yang lewat 30. Track B dinilai dari 30 (tanpa kolom Emosi), ja
 | A1 Kursi cukur (putaran 1) | 5 | 5 | 4 | 5 | 4 | 3 | 5 | 31/35 |
 
 **Rekomendasi:** A4. Satu orang, satu properti, tatapan ke lensa: paling aman digenerate dan paling langsung terbaca "AI yang nanya ke kamu". Lanjutan CTA-nya (cermin dihadapkan ke kamu) paling nyambung dengan pertanyaan komentar "Tugas apa yang hasil AI-nya paling sering meleset?". Cadangan: A5 kalau mau ketegangan gunting yang tertahan, dengan risiko tangan lebih tinggi.
+
+## Keputusan Irsyad (Gate 3)
+
+Konsep: **A4 Sisir jadi mikrofon**. Prompt cover di `3-cover-prompt.json`. Prompt slide CTA (`3b-cta-prompt.json`) ditulis setelah cover disetujui.
