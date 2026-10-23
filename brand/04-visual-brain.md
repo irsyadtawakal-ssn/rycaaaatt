@@ -255,7 +255,7 @@ Covers are generated in full, image and text together, in an AI image generator 
 
 Inner slides are no longer flat template cards. They follow the same editorial language as the cover (big type, serif italic labels, one orange word) and alternate between five slide types so the swipe has rhythm. Sizes are for 1080 × 1350; inner slides use 64 px side margins, like the cover.
 
-**Hard rule: the cover image never appears on an inner slide.** No crop, no detail, no object or scene from the cover is reused. Every graphic is its own idea, drawn for that slide's point.
+**Hard rule: the cover image never appears on an inner slide.** No crop, no detail, no object or scene from the cover is reused. Every graphic is its own idea, drawn for that slide's point. The one exception is the CTA slide at the very end (see "CTA slide" below), which is not an inner content slide.
 
 | Type | Looks like | Use for |
 | --- | --- | --- |
@@ -285,15 +285,24 @@ Every carousel builds in four things that make people swipe to the end, save it 
 | Bridge line | One short line at the bottom of a step slide that teases the next slide: "Berikutnya: langkah yang paling sering dilewati" | Figtree Medium 30 px, white at 70%, 64 px from the left, about 120 px above the bottom edge (clear of the corner labels). Only a true tease of the next slide, never clickbait. At most on half of the slides |
 | Contekan (recap) slide | A type slide just before "Coba hari ini" that puts the whole carousel on one screen: serif italic label "Contekan", then the 3–5 points as numbered rows with orange numbers and 15% white dividers | Rows of 3–8 words each, taken from the headlines. This is the slide people save, so it must stand alone |
 | Proof slide (optional) | A window slide labelled "Contoh dari saya" with a real screenshot of Irsyad's own prompt and result, in a white rounded frame tilted 2–4° | Only with a real screenshot Irsyad sends, private data covered. Never a mock-up |
-| Series teaser | The last slide names the next episode in one line ("Besok: AI dan pekerjaan, Fondasi AI #5"), and the cover carries the series label top-right | The teased topic must be planned. If it is not, say "Episode berikutnya" without a promise of a date |
+| CTA slide | The last slide continues the cover photo and asks the comment question, plus one line asking to save and follow (details below) | Replaces the series teaser (dropped on 23 Oct 2026). The cover still carries the series label top-right |
 
-The comment question lives in the caption, not on the slides (Voice section 6): one real question the reader can answer from their own life ("Kamu kerja di bidang apa?"), never a keyword to type.
+### CTA slide: the cover, a moment later (since 23 Oct 2026)
+
+The last slide of every carousel with a generated cover closes the story the cover opened: the same scene a few seconds later.
+
+- **Image:** a new image generated from the cover prompt (same person, setting, wardrobe, light, palette and camera), showing the next moment: the gift box opened, the answer found, the reaction after. Never a crop or copy of the cover. Made with the cover as an extra reference, so the face and scene match. Generated **without any text**, with the upper ~45% of the frame kept calm and empty for the text. Saved as `assets/cta.png`.
+- **Text (rendered by `cta_slide` in `lib/slides.py`, not by the image generator):** centred like the cover. Serif italic kicker ("Giliran kamu"), then the comment question in Bricolage ExtraBold, about 96 px, 10 words or fewer, exactly one orange word, then one Figtree Medium line asking to save and follow ("Simpan biar nggak lupa. Follow buat fondasi berikutnya."). Text colour follows the cover's text colour rule.
+- **The question:** about this carousel's topic, answerable from the reader's own life or work in a few words ("Kamu paling sering minta AI bikin apa?"). Never a keyword to type, never "tag teman" or "share kalau setuju", never a yes/no question. The Instagram caption closes with the same question.
+- **Corners:** @irsyadtawakal top-left, slide number top-right, "Simpan dulu" bottom-left, "Ikuti @irsyadtawakal" bottom-right.
+- It is not counted as a graphic slide in the rhythm limits.
+- A carousel with a typographic cover (no generated image) ends with a type slide carrying the same text instead.
 
 ### Inner slides: designed graphics, "chat objects" style (signature)
 
 Support visuals on inner slides are **designed graphics drawn in code**, not photos and not AI-generated images, so there is no image-generation step for inner slides; only the cover is generated. Since 13 Oct 2026 the style is **chat objects**: the everyday things of talking to AI (chat bubbles, app cards, sticky notes, the message input bar, a cursor), shown big, tilted and layered, with a real example sentence inside. Chosen over a hand-sketch style and a one-symbol minimal style because beginners recognise these objects instantly, the example inside the object teaches, and solid white objects stay readable at thumbnail size.
 
-**Hard rule:** the cover image, and anything from it, never appears on an inner slide.
+**Hard rule:** the cover image, and anything from it, never appears on an inner slide. Exception: the CTA slide at the end continues the cover scene (see "CTA slide").
 
 **Signature rules (every graphic follows all of them):**
 
@@ -380,8 +389,8 @@ This brand is not "generic AI content": no glowing tech clichés, no clutter, no
 
 Run this on every frame before delivering it. One "no" means fix it first.
 
-- [ ] Carousel: a Contekan slide before "Coba hari ini", step labels show progress, bridge lines are true teases, and the last slide teases the next episode.
-- [ ] Cover: layout, typography, text colour rule and handle are correct (imagery is free). Inner slide: it is one of the five types in section 6, the background is Deep Indigo `#261A66`, an orange block, an off-white pause slide (max 1) or a chat-objects graphic (tilted and layered, one solid hero object with a real example inside, exactly one hand-drawn orange mark), and the cover image appears nowhere.
+- [ ] Carousel: a Contekan slide before "Coba hari ini", step labels show progress, bridge lines are true teases, and the last slide is the CTA slide (the cover scene a moment later, one real comment question, save and follow line).
+- [ ] Cover: layout, typography, text colour rule and handle are correct (imagery is free). Inner slide: it is one of the five types in section 6, the background is Deep Indigo `#261A66`, an orange block, an off-white pause slide (max 1) or a chat-objects graphic (tilted and layered, one solid hero object with a real example inside, exactly one hand-drawn orange mark), and the cover image appears nowhere (the CTA slide at the end is the only exception).
 - [ ] Rhythm: no two image slides in a row, no more than two of the same type in a row, graphic slides within the limit (3 for 7–8 slides, 4 for 9–10).
 - [ ] Only Indigo, White and Orange (plus the off-white pause tint) appear, apart from real screenshots and designed graphics.
 - [ ] Only Bricolage Grotesque and Figtree are used, plus Instrument Serif Italic for a cover kicker, a short slide label or a pause-slide quote.

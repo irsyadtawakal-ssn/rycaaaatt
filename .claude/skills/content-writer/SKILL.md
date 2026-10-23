@@ -75,7 +75,7 @@ One line per slide, as the plain-text script **carousel-director** expects:
 - **Proof slide (optional):** "Contoh dari saya", built around a real screenshot of Irsyad's own prompt and result. Only if he has one; otherwise leave it out and never describe a mock-up.
 - **Contekan:** a recap slide with the 3–5 points as numbered rows of 3–8 words, which makes sense on its own.
 - "Coba hari ini", with the concrete action or the full prompt.
-- The last slide teases the next episode in the series in one line. If no next topic is planned, write "Episode berikutnya" without a date.
+- The last slide is the CTA slide (Visual Brain "CTA slide"): one comment question about the topic, 10 words or fewer with one orange word, answerable in a few words from the reader's own life or work (never yes/no, never a keyword), plus "Simpan biar nggak lupa. Follow buat fondasi berikutnya." Its image (the cover scene a moment later) is carousel-director's job. The Instagram caption closes with the same question.
 
 Each slide carries one idea. If a slide needs lengthy setup, split it.
 
@@ -155,7 +155,7 @@ Rewrite until every line passes, then show the final version with a short check 
 5. **Honest:** no invented numbers, results, testimonials or screenshots. The hook's promise is paid off. No fear without a way out.
 6. **Brand refusals:** nothing from Positioning section 3 (hype without fundamentals, AI as a toy, illegal shortcuts, tool-hopping, instant promises, fear content).
 7. **Ending:** a concrete result or one thing to try today, never theory.
-8. **Engagement:** for carousels, the Contekan stands on its own, every bridge line is paid off, and the last slide teases the next episode. For videos, every loop and rehook is paid off and the ending flows into the first frame. For captions, one real comment question.
+8. **Engagement:** for carousels, the Contekan stands on its own, every bridge line is paid off, and the last slide is the CTA slide with one real comment question. For videos, every loop and rehook is paid off and the ending flows into the first frame. For captions, one real comment question.
 9. **Channels:** each channel's text follows its own job (table above), Threads is useful without the image, and the service line appears only where allowed. Each channel goes under its own heading in `5-caption.md` (`## Instagram`, `## TikTok`, `## Threads`, `## LinkedIn`). Check each caption with `py lib/ig/cek_caption.py <post>/5-caption.md --bagian <Channel> --channel <channel> --kata-kunci "<main keyword>" --pilar <N>` (add `--aset` only when a real asset is sent, `--video` for a video). Fix every FAIL, say which WARNs you left and why, and run `py lib/ig/bersihkan.py <post>/5-caption.md --tulis` if it finds invisible characters.
 10. **Pillar:** the piece fits its pillar and uses that series name.
 
