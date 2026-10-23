@@ -226,20 +226,21 @@ def recap_slide(n, rows, label="Contekan", headline=None):
             f'<div class="lab">{_e(label)}</div>{head}{items}</div></div>')
 
 def cta_slide(n, image, question, line="Simpan biar nggak lupa. Follow buat fondasi berikutnya.",
-              kicker="Giliran kamu", tone="light", top=150):
+              kicker="Giliran kamu", tone="light", top=150, size=96):
     """Slide terakhir (CTA): foto lanjutan cover, full-bleed, dengan pertanyaan komentar di atasnya.
 
     image: path relatif dari slides.html, misalnya "assets/cta.png" (digenerate tanpa teks,
     area atas dibiarkan tenang). question: satu pertanyaan soal isi carousel yang bisa dijawab
     dari pengalaman pembaca, dengan *satu* kata oranye. tone: "light" (teks indigo, untuk foto
-    terang) atau "dark" (teks putih). Teks rata tengah seperti cover."""
+    terang) atau "dark" (teks putih). Teks rata tengah seperti cover. Kalau kepala di foto
+    terlalu tinggi, kecilkan size (minimal 72) dan top, jangan menimpa wajah atau rambut."""
     col = IND if tone == "light" else WH
     return (f'<div class="s" id="s{n}" style="background:#ccc url(\'{_e(image)}\') center/cover no-repeat;color:{col}">'
             f'{_corners(n, last=True)}'
             f'<div class="txt" style="top:{top}px;text-align:center">'
-            f'<div class="lab" style="font-size:64px">{_e(kicker)}</div>'
-            f'<h1 style="font-size:96px">{_headline(question)}</h1>'
-            f'<div style="font:500 40px/1.35 Figtree;margin-top:28px">{_e(line)}</div></div></div>')
+            f'<div class="lab" style="font-size:{round(size*.62)}px;margin-bottom:{round(size*.12)}px">{_e(kicker)}</div>'
+            f'<h1 style="font-size:{size}px">{_headline(question)}</h1>'
+            f'<div style="font:500 {round(size*.4)}px/1.35 Figtree;margin-top:{round(size*.25)}px">{_e(line)}</div></div></div>')
 
 def image_slide(n, label, headline, body, graphic, last=False, bridge=None):
     """Tipe 1: teks di atas, grafis penuh di separuh bawah, latar gradien."""
