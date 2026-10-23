@@ -1,0 +1,70 @@
+{
+  "prompt": {
+    "scene": {
+      "description": "A vertical 4:5 photo, 1080x1350, editorial magazine style, with NO text of any kind. It is the same scene as the attached cover, a few seconds later: the same person from the attached reference photos, still playing a friendly barber in the same quiet vintage barbershop, wearing the same plain black barber apron over the same off-white t-shirt, closed silver scissors and the vivid orange (#EF5F18) comb now both tucked into the apron's chest pocket. The haircut is done. He holds up a round hand mirror with a dark wooden handle, turning it toward the camera as if showing the viewer their new haircut, and gives a warm, satisfied smile. Same plain matte deep bottle-green wall, the same softly blurred vintage barber chair backrest behind his shoulder, the same warm tungsten light from camera-left and thin rim light from behind right. The upper 45% of the frame is a calm, completely empty, evenly lit green wall, with nothing in it; the person sits lower in the frame than on the cover, the top of his head at about the middle of the frame.",
+      "subject": "The same person from the attached reference photos, dressed as a barber, holding up a round hand mirror toward the camera with a satisfied smile",
+      "setting": "The same quiet vintage barbershop as the attached cover: plain matte deep bottle-green wall, the softly blurred backrest of one vintage barber chair, no wall mirrors, signs, posters or shelves",
+      "action": "Showing the finished haircut to the viewer by turning the hand mirror toward the camera"
+    },
+    "person": {
+      "identity": "The same person from the attached reference photos and the attached cover. Keep his face, facial structure, skin tone, hairstyle and body proportions exactly the same. Do not beautify, slim, or change his age.",
+      "expression": "Satisfied and proud: a genuine warm smile with the eyes slightly crinkled, eyebrows relaxed, chin a little up, as if saying 'gimana, pas kan?'",
+      "gaze": "Direct eye contact into the lens, over the top edge of the mirror",
+      "pose_gesture": "Right hand holds the hand mirror by its wooden handle at chest height, the mirror's round face angled toward the camera, slightly tilted so it reflects only a soft, out-of-focus warm glow; left hand relaxed out of frame; shoulders relaxed, leaning very slightly toward the camera",
+      "framing": "Chest-up crop, the face about one fifth of the frame height, the top of his head at about the middle of the frame so the upper 45% stays empty",
+      "wardrobe": "The same plain black barber apron with a chest pocket over the same plain off-white crew-neck t-shirt, no logos, no print; scissors and orange comb in the pocket",
+      "interaction": "Nothing overlaps the empty upper part of the frame; the mirror stays in the lower half"
+    },
+    "style": {
+      "primary": "editorial lifestyle portrait photography",
+      "rendering_quality": "photorealistic, high-resolution",
+      "surface_textures": "Natural, matte surfaces; subtle painted-wall texture, no grain effects",
+      "lighting": "Identical to the attached cover: one soft warm tungsten key light from camera-left at about 40 degrees, around 3800K, catchlights in both eyes; a thin cool rim light from behind right; the upper area of the wall evenly lit and calm"
+    },
+    "technical": {
+      "camera": {
+        "focal_length": "85mm",
+        "aperture": "f/2.8",
+        "depth_of_field": "shallow: face and mirror sharp, the barber chair and wall softly out of focus",
+        "angle": "eye level"
+      },
+      "resolution": "editorial print quality",
+      "rendering": "The same colour grade as the attached cover: deep greens and warm neutrals, true-to-life skin, no heavy post-processing"
+    },
+    "materials": {
+      "skin": "Natural skin texture with visible pores and real imperfections, no airbrushing",
+      "fabric": "Matte black cotton apron with natural creases, soft cotton t-shirt",
+      "surfaces": "Round glass hand mirror with a dark wooden frame and handle; glossy orange plastic comb; brushed silver scissors; matte painted green wall; worn leather on the barber chair"
+    },
+    "composition": {
+      "perspective": "Frontal, shallow depth: person and mirror in the foreground plane, the chair and wall behind",
+      "framing": "centered",
+      "subject_placement": "Person centred in the lower half; the mirror is the second point of interest; the upper 45% of the frame is empty wall reserved for text added later",
+      "ui_elements": "None. No text, letters, numbers, labels, logos or watermarks anywhere in the image."
+    },
+    "quality": {
+      "include": [
+        "the same person, outfit, barbershop, light and colour grade as the attached cover",
+        "warm, satisfied smile readable at thumbnail size",
+        "direct eye contact into the lens",
+        "hand mirror clearly turned toward the camera",
+        "orange comb visible in the apron pocket as the only saturated accent",
+        "a calm, completely empty green wall in the upper 45% of the frame",
+        "natural skin texture and real proportions"
+      ],
+      "avoid": [
+        "any text, letters, numbers, labels or words anywhere",
+        "a crop or copy of the cover pose; this is a new moment with a new pose",
+        "a clear reflection of a face, a camera or a room in the hand mirror",
+        "wall mirrors, shop signs, posters, price lists, shelves or bottles in the background",
+        "a second person or a second face",
+        "the subject placed high in the frame, or anything in the upper 45%",
+        "a different-looking face, beautified or airbrushed skin, changed age or facial structure",
+        "extra fingers or warped hands",
+        "a stiff posed smile",
+        "robots, glow, neon, watermarks or logos"
+      ],
+      "reference_standard": "Kinfolk and Monocle editorial portraits; quiet, warm barbershop portrait photography"
+    }
+  }
+}

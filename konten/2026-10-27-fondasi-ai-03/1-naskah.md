@@ -66,3 +66,7 @@ Sebelum posting, coba prompt slide 7 sekali di AI yang biasa kamu pakai, dengan 
 
 - `assets/cta.png`: gambar slide CTA, digenerate setelah cover jadi (tahap 4a).
 - Opsional: screenshot asli waktu kamu tes prompt slide 7 (data pribadi ditutup), `assets/contoh-nanya-balik.png`. Kalau ada, pertanyaan asli dari AI bisa dipakai di grafis slide 5 atau 7, tanpa mengarang jawaban AI.
+
+## Revisi jadwal (Irsyad, 23 Okt)
+
+Fondasi AI #2 tayang lebih awal (Jumat 23/10, Instagram dan TikTok). Teaser di slide 10-nya menjanjikan "besok sore", jadi #3 dimajukan ke **Sabtu 24/10 sore**. Slide 3 ("Episode kemarin bilang…") tetap benar. Nama folder tetap `2026-10-27-fondasi-ai-03`.
