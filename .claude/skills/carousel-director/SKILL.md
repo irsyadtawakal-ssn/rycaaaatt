@@ -23,9 +23,9 @@ Every carousel lives in its own folder, `konten/YYYY-MM-DD-<series-slug>-<nn>/` 
 | --- | --- |
 | 0–1 Brief and script | `1-naskah.md` |
 | 2 Cover copy and hooks | `2-hook-cover.md` |
-| 3–4a Concepts and cover prompt | `3-cover-prompt.json` (plus the concept table at the top of `2-hook-cover.md`) |
+| 3–4a Concepts, cover prompt and CTA prompt | `3-cover-prompt.json` and `3b-cta-prompt.json` (plus the concept table at the top of `2-hook-cover.md`) |
 | 4b Slide plan and assets | `4-slide-plan.md`, assets in `assets/`, render script `build_slides.py` |
-| Render | `output/slide-NN.png`, `output/carousel-linkedin.pdf`; Irsyad saves the generated cover as `output/cover.png` |
+| Render | `output/slide-NN.png`, `output/carousel-linkedin.pdf`; Irsyad saves the generated cover as `output/cover.png` and the CTA image as `assets/cta.png` |
 | 5 Joint check | a short section at the end of `4-slide-plan.md` |
 | 6 Bundle | `5-caption.md` |
 
@@ -42,10 +42,10 @@ Skip gates only when Irsyad says so explicitly ("langsung semua", "pilih sendiri
 | Stage | Output | Gate: Irsyad decides |
 | --- | --- | --- |
 | 0. Brief | Inputs collected (ask only what is missing) | — |
-| 1. Script | Angle, one line per slide (with Contekan and series teaser), facts checked, early asset list | Approve or change the script |
+| 1. Script | Angle, one line per slide (with Contekan and the CTA question), facts checked, early asset list | Approve or change the script |
 | 2. Copy | Cover copy (main and alternative) and six hooks | Pick the cover copy and one hook |
 | 3. Concepts | Six cover concepts with scores | **Pick the cover concept** |
-| 4a. Cover prompt | JSON prompt for the chosen concept, plus the photos it needs | Generates the cover and uploads it |
+| 4a. Cover prompt | JSON prompt for the chosen concept, plus the photos it needs; then the CTA image prompt (the cover scene a moment later) | Generates the cover and the CTA image and uploads both |
 | 4b. Slide plan | One row per slide with graphic specs, layouts and bridge lines, plus the **asset checklist** | Approve the plan **and send the assets**; render only after |
 | 5. Joint check | Pass or fix for cover and slides together | Approve the final frames |
 | 6. Bundle | Captions for four channels, LinkedIn PDF, alt text, tracker rows | — |
@@ -79,8 +79,8 @@ Built into the script and the plan, so people swipe to the end, save, and come b
 - **Bridge lines:** on up to half of the slides, one short line at the bottom that truly teases the next slide ("Berikutnya: langkah yang paling sering dilewati"). Never a tease the next slide does not pay off.
 - **Contekan:** a recap type slide just before "Coba hari ini", with the 3–5 points as numbered rows of 3–8 words. It must make sense on its own, because it is the slide people save.
 - **Proof slide (optional):** "Contoh dari saya", a graphic slide with a real screenshot of Irsyad's own prompt and result. Only when Irsyad has one (asset checklist). Never a mock-up.
-- **Series teaser:** the last slide names the next episode in one line, and the cover carries the series label. Ask Irsyad for the next topic at the brief; if there is none, write "Episode berikutnya" without a date.
-- **Comment question:** in the caption only, one real question the reader can answer from their own life. Never a keyword to type.
+- **CTA slide (last slide, since 23 Oct 2026):** the cover scene a moment later, with one comment question about the carousel's topic and one line asking to save and follow. Replaces the series teaser; the cover still carries the series label. Visual Brain section "CTA slide" has the rules.
+- **Comment question:** on the CTA slide and again as the Instagram caption's closing line, the same question. One real question the reader can answer in a few words from their own life or work, about this carousel's topic. Never a keyword to type, never yes/no, never "tag teman" or "share kalau setuju".
 
 ## Stage 0 — Brief
 
@@ -90,7 +90,6 @@ Collect, asking only for what cannot be defaulted:
 - **Payoff:** what the carousel actually delivers. If unknown, propose one.
 - **Slide count:** default 8, allowed 7–10.
 - **Last 3 covers** (track, colours, text position), for grid variety. If unknown, ask once and move on.
-- **Next episode:** the topic of the next carousel in the series, for the teaser on the last slide. If none is planned, say the teaser will be generic.
 
 ## Stage 1 — Angle and script
 
@@ -109,7 +108,7 @@ Script, one line per slide, each with its slide type (see Stage 4b):
 - Optional proof slide "Contoh dari saya", only if Irsyad has a real screenshot.
 - Contekan: the recap of all points on one screen.
 - "Coba hari ini": the concrete action or full prompt. It pays off the cover's promise.
-- Last slide: the series teaser for the next episode, with "Simpan dulu" and "Ikuti @irsyadtawakal" in the corners. "Coba hari ini" and the teaser may share one slide when the carousel is 7 slides.
+- Last slide: the CTA slide. Write the comment question (10 words or fewer, one orange word) and the save-and-follow line; the image is the cover scene a moment later (decided in Stage 4a). "Simpan dulu" and "Ikuti @irsyadtawakal" in the corners.
 
 Then add:
 - **Facts to check:** every claim about tools, models, features or statistics. Verify with a search when you can and give the source. If it cannot be verified, rewrite or drop it. Never invent numbers.
@@ -232,6 +231,15 @@ Then tell Irsyad, in a short list:
 - Generate 2–4 variations, pick the one with perfect spelling, and upload it here for review.
 - Image models do not load font files: font names are style hints, and the reference cover matters most. If the typography keeps failing, generate the image without text and set the text in code.
 
+### CTA image prompt (after the cover is approved)
+
+Write `3b-cta-prompt.json` from the approved cover prompt: same `person`, `style`, `technical`, `materials` and setting, with only the moment changed to the next beat of the cover's story (the box opened, the answer found, the reaction after). Rules:
+- **No text at all** in the image: remove `ui_elements`, and add "any text, letters, numbers or labels" to `quality.avoid`. The text is set in code by `cta_slide`.
+- The upper ~45% of the frame is calm and empty (wall, sky, soft blur); the subject sits in the lower half.
+- Never a crop or copy of the cover: a new frame with a new pose or expression.
+- Tell Irsyad to attach the approved cover plus his reference photos (Track A), and to say: "Same person, same scene, same light and colours as the attached cover, a few seconds later. No text anywhere." Save the chosen image as `assets/cta.png`.
+- If the cover has no generated image (typographic cover), skip this: the CTA slide becomes a type slide with the same text.
+
 ### Review (when Irsyad uploads the cover)
 
 Report pass or fix for each check:
@@ -250,7 +258,7 @@ Score it with the Stage 3 criteria. For each fix, give a short edit prompt to pa
 
 Build from the approved script. The Visual Brain sections on editorial rhythm, engagement structure, chat-objects graphics and dynamic layout win over this summary.
 
-**Hard rule:** the cover image never appears on an inner slide (no crop, detail, object or scene).
+**Hard rule:** the cover image never appears on an inner slide (no crop, detail, object or scene). The only exception is the CTA slide at the end, which continues the cover scene with its own generated image.
 
 ### Slide types
 
@@ -319,21 +327,21 @@ Signature style:
 
 Under the plan table, give the asset checklist (see Assets): one row per file, the slide it is for, the file name to use, and the fallback. If no assets are needed, say "Tidak ada asset yang dibutuhkan".
 
-**Gate 4b:** ask Irsyad to approve the plan and to send the assets, or to choose the fallback for any he does not have. Render only after both. Write `build_slides.py` in the post folder that imports the library (`sys.path.insert(0, "lib")`, then `from slides import *`), using the official logo files from `assets/logos/` for logo=: draw each graphic in its stage coordinates with bubble_user, bubble_ai_typing, bubble_ai_empty, app_card (logo=), sticky, input_bar, chip, the mark_ functions and doodle_plus; describe each graphic slide with slide(n, label, headline, body, graphic, aspect=..., layout="auto", role="hook"/"payoff", bridge=...); add type slides such as recap_slide as ready HTML; then write page(build([...])) to `slides.html` in the post folder. Run it with `py konten/<post>/build_slides.py`, then render with `node lib/render.mjs konten/<post>/slides.html konten/<post>/output konten/<post>/output/cover.png` (the cover argument is optional). Look at every PNG before showing them to Irsyad, and fix anything cut off or overlapping first.
+**Gate 4b:** ask Irsyad to approve the plan and to send the assets, or to choose the fallback for any he does not have. Render only after both. Write `build_slides.py` in the post folder that imports the library (`sys.path.insert(0, "lib")`, then `from slides import *`), using the official logo files from `assets/logos/` for logo=: draw each graphic in its stage coordinates with bubble_user, bubble_ai_typing, bubble_ai_empty, app_card (logo=), sticky, input_bar, chip, the mark_ functions and doodle_plus; describe each graphic slide with slide(n, label, headline, body, graphic, aspect=..., layout="auto", role="hook"/"payoff", bridge=...); add type slides such as recap_slide as ready HTML; end with cta_slide(n, "assets/cta.png", question, tone="light" or "dark" to match the cover's text colour); then write page(build([...])) to `slides.html` in the post folder. Run it with `py konten/<post>/build_slides.py`, then render with `node lib/render.mjs konten/<post>/slides.html konten/<post>/output konten/<post>/output/cover.png` (the cover argument is optional). Look at every PNG before showing them to Irsyad, and fix anything cut off or overlapping first.
 
 ## Stage 5 — Joint check
 
 Once the cover and the slides both exist, report pass or fix for:
 1. The cover's promise is paid off by a named slide.
 2. Slide 2 works for someone who skipped the cover.
-3. The rhythm rules hold, the layouts vary, and the cover image appears nowhere inside.
+3. The rhythm rules hold, the layouts vary, and the cover image appears nowhere inside. The CTA slide continues the cover scene (same person, light and palette, a later moment), is not a crop of it, and its text sits on a calm area.
 4. Facts are verified with sources, and any prompt or procedure has been tested by Irsyad.
 5. The Visual Brain pre-flight checklist passes for every frame, including the handle on every slide.
 6. Any count promised on the cover or in the hook is delivered exactly, with no filler slides.
 7. Every slide carries one idea, and the last slide has one call to action, not several.
 8. No AI tells in the slide text (content-writer Stage 3): at most one "Bukan X, tapi Y" in the whole carousel, no question answered right away, no stock openers, no hype words.
 9. Every graphic slide is chat objects: tilted and layered, one solid hero object with a real example inside, exactly one orange mark, no invented AI answer, and any tool logo or screenshot is the real file Irsyad sent, unaltered (private data covered).
-10. Engagement structure: step labels show progress, every bridge line is paid off by the next slide, the Contekan stands on its own, and the last slide teases the next episode.
+10. Engagement structure: step labels show progress, every bridge line is paid off by the next slide, the Contekan stands on its own, and the last slide is the CTA slide with one real comment question that matches the Instagram caption's closing question.
 11. No text is cut off or squeezed below its minimum size.
 
 **Gate 5:** approve the final frames.
@@ -341,7 +349,7 @@ Once the cover and the slides both exist, report pass or fix for:
 ## Stage 6 — Bundle
 
 - **Captions for four channels** (Voice section 7; use content-writer's "Captions per channel" if it is loaded):
-  - **Instagram:** the chosen hook as the first line, the main keyword within the first ~125 characters, the answer kept in the slides, one real comment question ("Kamu kerja di bidang apa?"), 3–5 hashtags. Its own hook, not a copy of slide 1 or the cover.
+  - **Instagram:** the chosen hook as the first line, the main keyword within the first ~125 characters, the answer kept in the slides, closing with the same comment question as the CTA slide, 3–5 hashtags. Its own hook, not a copy of slide 1 or the cover.
   - **TikTok** (same slides in photo mode): a searched keyword phrase first, 1–3 sentences, 3–5 search hashtags. Until Irsyad has tested how TikTok shows 4:5 slides, remind him to check the first upload.
   - **Threads:** a text version that is useful without the slides: the sharpest point first, one idea per post, the practical step last, a question that invites replies; 1–2 slides attached at most.
   - **LinkedIn** (pillars 1, 2, 4, 5): a business angle from a real work situation, short paragraphs, at most 3 hashtags, and the service line for pillars 2 and 4.

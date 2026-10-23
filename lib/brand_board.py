@@ -202,7 +202,8 @@ html = f"""<!doctype html><html lang="id"><head><meta charset="utf-8">
     {thumb(slides[5], "Latar Pause White, teks indigo. Mitos dicoret 40%, fakta dengan satu kata oranye ≥120 px. Maksimal 1 per carousel.", "5 · Slide jeda")}
     {thumb(slides[6], "Tipe ketik tepat sebelum \"Coba hari ini\": 3–5 poin bernomor oranye. Slide yang disimpan orang, harus bisa berdiri sendiri.", "Contekan")}
   </div>
-  <p class="lead" style="margin-top:36px">Aturan ritme: tidak ada dua slide gambar berurutan, tidak lebih dari dua slide bertipe sama berurutan, komposisi tidak sama dua kali berturut-turut. Carousel 7–8 slide maksimal 3 slide grafis, 9–10 slide maksimal 4. Slide 2 dan "Coba hari ini" adalah slide gambar atau slide ketik. Gambar cover tidak pernah muncul di slide isi.</p>
+  <p class="lead" style="margin-top:36px">Aturan ritme: tidak ada dua slide gambar berurutan, tidak lebih dari dua slide bertipe sama berurutan, komposisi tidak sama dua kali berturut-turut. Carousel 7–8 slide maksimal 3 slide grafis, 9–10 slide maksimal 4. Slide 2 dan "Coba hari ini" adalah slide gambar atau slide ketik. Gambar cover tidak pernah muncul di slide isi, kecuali slide CTA di akhir.</p>
+  <p class="lead" style="margin-top:24px">Slide CTA (slide terakhir, sejak 23 Okt 2026): adegan cover beberapa detik kemudian, digenerate baru tanpa teks (bukan potongan cover), 45% bagian atas dibiarkan tenang. Di atasnya, rata tengah: "Giliran kamu" serif italic, satu pertanyaan komentar soal topik carousel (maksimal 10 kata, satu kata oranye), lalu "Simpan biar nggak lupa. Follow buat fondasi berikutnya." Pertanyaannya sama dengan penutup caption Instagram. Teaser episode berikutnya tidak dipakai lagi.</p>
 </section>
 
 <section>
