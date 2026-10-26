@@ -39,3 +39,22 @@ Dunia nyata = rekaman asli + layar asli. Dunia analogi = diorama clay. Garisnya 
 - Gaya dipilih Irsyad (A/B/C).
 - Aturan B-roll AI masuk Video Brain (usulan sudah dikirim di chat, belum disetujui).
 - Tes gaya pertama: satu klip uji di Flow dari 3–5 foto asli Irsyad.
+
+## Bedah 3 video referensi dari Irsyad (26 Okt 2026)
+
+Ketiganya bukan B-roll klasik, tapi **motion graphic kolase + tipografi kinetik**, tanpa wajah, dengan voice-over.
+
+| | Ref 1 (agensi, 36 s) | Ref 2 (Lamborghini, 27 s) | Ref 3 (kreator editor, 18 s) |
+| --- | --- | --- | --- |
+| Latar | Kertas putih tulang + grid tipis + vignette | Kertas buku tulis bergaris, sobekan | Selang-seling putih tulang dan hitam |
+| Objek | Foto potongan hitam-putih: perahu origami, patung, pria berkepala monitor bermeditasi, bidak catur, bola mata | Foto arsip potongan, kunci mobil, tangan yang "merebut" logo, stiker label | Objek 3D: bohlam, koper uang, kertas ditempel pin merah, keyboard ber-lakban |
+| Warna | Monokrom total | Hitam-putih + satu warna (merah) | Netral + merah untuk kata kunci |
+| Teks | Kata per kata, kecil-besar (kicker kecil + kata utama tebal), blur-in | Kata per kata + stiker kuning, coretan spidol melingkari | Kata per kata, satu kata merah |
+| Ritme | Satu ide visual per 1–3 s, daftar poin muncul satu per satu | Satu ganti per ~1 s | Satu ganti per ~1 s |
+| Gerakan | Blur-in/out, scale pelan, objek masuk dari bawah | Stop-motion patah-patah, objek "dipegang" tangan | Pin "menancap", kartu jatuh, glow |
+
+**Kesamaan yang membuatnya tidak slop:** satu metafora visual per kalimat (bukan ilustrasi literal), palet sangat terbatas dengan satu warna aksen, latar konsisten satu video penuh, objek berupa potongan foto (bukan adegan AI utuh), teks yang ikut irama suara.
+
+**Implikasi produksi:** gaya ini dibuat dari gambar diam berlatar transparan yang dianimasikan (After Effects / kode), bukan klip video AI utuh. Untuk kita: gambar potongan dari ChatGPT Image / Nano Banana (+ remove background), dianimasikan di HyperFrames/Remotion. Omni hanya untuk objek yang butuh gerak nyata (orang berjalan, tangan meraih).
+
+**Bentrok dengan Video Brain saat ini (perlu keputusan):** transisi blur-in (bagian 6: hard cut only), teks kata per kata di tengah layar vs caption Terketik berbentuk pill, format tanpa wajah di frame 1 (bagian 3).
