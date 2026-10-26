@@ -110,6 +110,14 @@ The CSS for these captions is in `lib/video/captions.css`.
 - **Tool logos:** only the official files from `assets/logos/`, unaltered and upright.
 - **Orange hand-drawn mark:** one per video (a circle, an underline or an arrow on the key moment).
 - **Contekan frame:** before the loop, a one-frame summary of the points (3–5 short numbered rows), held for 1.5 seconds. It is the frame worth screenshotting and sending.
+- **B-roll kolase (added 26 Oct 2026, Irsyad's decision):** full-screen inserts that cover the face for a moment while the voice keeps running. Reference: the editorial collage style (cut-out photos on paper, kinetic words), studied in `planning/riset/2026-10-26-gaya-broll-ai.md`.
+  - **When:** only on an analogy in intensify or a set-up. Never in the first 3 seconds (frame 1 stays the face) and never on the payoff (the payoff stays the real screen or proof).
+  - **How much:** 2–3 inserts in a 30 s video, each 1.5–3 seconds, at most about 30% of the running time in total, so the face stays dominant.
+  - **Look:** paper background in the pale indigo tint #F4F2FF with a thin grid, black-and-white cut-out photos, Signal Orange as the only colour. Words appear one by one in Bricolage, one word in orange.
+  - **Text:** while an insert is on screen, the Terketik caption is hidden and the insert's own words take its place, so text never doubles up.
+  - **A metaphor, not a literal picture:** one visual idea per sentence. "Nanya ke ChatGPT kayak nanya ke Google" becomes Irsyad holding a magnifying glass to an empty chat box, not a screenshot of Google.
+  - **Objects:** cut-out images of Irsyad, everyday objects, chat objects, official logos. Images of Irsyad are AI-made from his real photos and used only as illustration, never as proof of an event or result (the same conditions as covers, Visual Brain "Photos and video framing"). The AI Irsyad never speaks, never lip-syncs, and his voice is never cloned. No AI images of other real people.
+  - **Made from:** still cut-out images (ChatGPT Image or Nano Banana, background removed) animated in code with HyperFrames or Remotion. Gemini Omni only for an element that needs real motion (a hand reaching, Irsyad walking). If an insert is photorealistic video, turn on Instagram's AI label for that post.
 - **Handle:** as Visual Brain section 3 (bottom of the safe box, right edge x 900, baseline y 1480, Figtree Medium 34 px white), on screen for the full video.
 
 ## 6. Editing
@@ -119,12 +127,12 @@ The CSS for these captions is in `lib/video/captions.css`.
 | Silences | Cut any pause longer than 0.35 s (auto-editor), then check by ear that no word was clipped |
 | Rhythm after the first 5 s | A visual change every 3–5 s |
 | Snap zoom | 100% → 112% on emphasis, about every 6–8 s after the first 5 s; never two zooms in a row |
-| Transitions | Hard cuts only. No whoosh, spin, glitch or slide transitions |
+| Transitions | Hard cuts only. No whoosh, spin, glitch or slide transitions. Inside a B-roll kolase insert, objects and words may move in (scale, blur-in, a pin pressing in); cutting into and out of the insert stays a hard cut |
 | Sound effects | Only the real keyboard and "ting" sounds, and only where something is typed or appears |
 | Music | Test it (section 9): one version with no music, one with a quiet bed under the voice. Stories may use music from the start |
 | Loudness | Normalise the voice to a steady level (a common target is −14 LUFS integrated) and check on a phone speaker |
 | Colour | Natural. No filters, no skin smoothing |
-| Face and voice | Never altered with AI. No avatars, no voice clones |
+| Face and voice | The recording is never altered with AI. No avatars, no voice clones. AI images of Irsyad appear only inside B-roll kolase inserts, under the conditions in section 5 |
 
 ## 7. Ending
 
@@ -165,6 +173,7 @@ Mark the estimated total duration at the top. Read the spoken lines aloud once: 
 - [ ] Something changes every 1.5–2 s in the first 5 s, and every 3–5 s after
 - [ ] Captions sit in the subtitle band, follow the voice, and have at most one orange word per chunk
 - [ ] Every overlay adds information, nothing covers the face
+- [ ] B-roll kolase: none in the first 3 s or on the payoff, 1.5–3 s each, at most ~30% of the video, a metaphor and not a literal picture, no caption doubling
 - [ ] Every number, screenshot and logo is real, with its source
 - [ ] Contekan frame, then a clean loop to the empty input bar
 - [ ] Handle on screen for the full video
